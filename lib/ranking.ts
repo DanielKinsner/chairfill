@@ -209,10 +209,21 @@ export interface ReasonChip {
 
 const DAY_LABEL: Record<Weekday, string> = { mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri" };
 
+const WINDOW_LABEL: Record<Exclude<TimeWindow, "any">, string> = { morning: "mornings", midday: "midday", afternoon: "afternoons" };
+
+/** "Tue, Thu afternoons" / "afternoons" / "Fri, any time" / "any time" */
 export function describePreference(days: Weekday[], windows: TimeWindow[]) {
-  const d = days.length === 0 || days.length === 5 ? "Any day" : days.map((x) => DAY_LABEL[x]).join(", ");
-  const w = windows.length === 0 || windows.includes("any") ? "any time" : windows.join(" or ");
-  return `${d}, ${w}`;
+  const anyDay = days.length === 0 || days.length === 5;
+  const anyTime = windows.length === 0 || windows.includes("any");
+  const d = days.map((x) => DAY_LABEL[x]).join(", ");
+  const w = windows
+    .filter((x): x is Exclude<TimeWindow, "any"> => x !== "any")
+    .map((x) => WINDOW_LABEL[x])
+    .join(" or ");
+  if (anyDay && anyTime) return "any time";
+  if (anyDay) return w;
+  if (anyTime) return `${d}, any time`;
+  return `${d} ${w}`;
 }
 
 /** The chips that explain, in plain words, why someone is where they are in the list. */
@@ -233,7 +244,7 @@ export function reasonChips(c: Candidate, types: AppointmentType[], entry?: Wait
       const pref = describePreference(entry.preferredDays, entry.windows);
       chips.push(
         c.windowMatch === "full"
-          ? { label: `Wants ${pref.replace("Any day, any time", "any time")}`, tone: "good" }
+          ? { label: `Wants ${pref}`, tone: "good" }
           : { label: `Prefers ${pref}`, tone: "neutral", title: c.windowMatch === "partial" ? "Matches the day or the time, not both." : "Outside what they asked for." },
       );
     }

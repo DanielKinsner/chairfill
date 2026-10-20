@@ -80,3 +80,14 @@ describe("windowMatch", () => {
     expect(windowMatch({ preferredDays: [], windows: ["any"] }, slot)).toBe("full");
   });
 });
+
+describe("describePreference", () => {
+  it("reads like the desk would say it", async () => {
+    const { describePreference } = await import("@/lib/ranking");
+    expect(describePreference(["tue", "thu"], ["afternoon"])).toBe("Tue, Thu afternoons");
+    expect(describePreference(["mon", "tue", "wed", "thu", "fri"], ["afternoon"])).toBe("afternoons");
+    expect(describePreference(["fri"], ["any"])).toBe("Fri, any time");
+    expect(describePreference([], ["any"])).toBe("any time");
+    expect(describePreference(["mon", "thu"], ["morning", "midday"])).toBe("Mon, Thu mornings or midday");
+  });
+});

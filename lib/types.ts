@@ -60,7 +60,7 @@ export interface Appointment {
   fillId?: string;
   earlierOk?: boolean;
   note?: string;
-  cancel?: { at: string; via: string; reason: string };
+  cancel?: { at: string; via: string; reason: string; patient?: string };
   /** Set when a move-up freed this slot. */
   openedBy?: { fillId: string; patientName: string };
 }

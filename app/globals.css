@@ -1,26 +1,180 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+  ChairFill design tokens: calm clinical.
+  Brand values come straight from the brief. Where a brand color is too light
+  for small text (teal, slate), a darker "-ink" partner carries text so every
+  string clears WCAG AA. The brand color itself still shows up in fills,
+  borders, icons and large type.
+*/
+@theme {
+  --color-white: #ffffff;
+  --color-ink: #17202a;
+  --color-ink-2: #2f3b48;
+  --color-surface: #f7f9fa;
+  --color-line: #e2e8ec;
+  --color-line-strong: #c9d3da;
+  --color-slate: #6b7a8c;
+  --color-slate-ink: #566577;
+
+  --color-teal: #0f8b8d;
+  --color-teal-ink: #0c7c7e;
+  --color-teal-deep: #0a6869;
+  --color-teal-soft: #dff3f3;
+  --color-teal-wash: #f0f9f9;
+
+  --color-amber: #e7a33e;
+  --color-amber-soft: #fcf1df;
+  --color-amber-ink: #85560f;
+
+  --color-green: #2e9e5b;
+  --color-green-soft: #e2f3e9;
+  --color-green-ink: #1f6e40;
+
+  --color-danger: #b42318;
+  --color-danger-soft: #fdecea;
+
+  --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "SFMono-Regular", monospace;
+
+  --radius-card: 8px;
+  --shadow-pop: 0 1px 2px rgb(23 32 42 / 0.06), 0 12px 32px rgb(23 32 42 / 0.1);
+  --shadow-lift: 0 1px 2px rgb(23 32 42 / 0.05), 0 4px 12px rgb(23 32 42 / 0.06);
+
+  --animate-fill-pulse: fill-pulse 900ms cubic-bezier(0.2, 0.7, 0.2, 1) 1;
+  --animate-fade-in: fade-in 300ms ease-out both;
+  --animate-typing: typing 1.2s ease-in-out infinite;
+  --animate-skeleton: skeleton 1.6s ease-in-out infinite;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@keyframes fill-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgb(15 139 141 / 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgb(15 139 141 / 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgb(15 139 141 / 0);
+  }
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes typing {
+  0%,
+  60%,
+  100% {
+    opacity: 0.25;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+@keyframes skeleton {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: var(--color-white);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-teal);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: var(--color-teal-soft);
+    color: var(--color-ink);
+  }
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+  dialog {
+    color: inherit;
+  }
+  dialog::backdrop {
+    background: rgb(23 32 42 / 0.32);
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  /* The signature motif: an open chair is a dashed outline, everywhere it appears. */
+  .open-outline {
+    border: 1.5px dashed var(--color-line-strong);
+    background: var(--color-white);
+  }
+  .open-outline-amber {
+    border: 1.5px dashed var(--color-amber);
+    background: var(--color-amber-soft);
+  }
+  /* Timecode-style tick rail used by every timeline (fill, audit, setup). */
+  .tick-rail {
+    background-image: repeating-linear-gradient(
+      to bottom,
+      var(--color-line-strong) 0 1px,
+      transparent 1px 8px
+    );
+    background-size: 1px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+  .scroll-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-line-strong) transparent;
+  }
+  .hatch {
+    background-image: repeating-linear-gradient(
+      135deg,
+      var(--color-surface) 0 6px,
+      var(--color-white) 6px 12px
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
