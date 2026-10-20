@@ -154,6 +154,7 @@
     font-family: var(--font-mono);
     font-variant-numeric: tabular-nums;
     letter-spacing: -0.01em;
+    white-space: nowrap;
   }
   .scroll-thin {
     scrollbar-width: thin;
