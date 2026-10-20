@@ -7,7 +7,8 @@ const utc = (ms: number) => {
   const d = new Date(ms);
   return `${d.getUTCFullYear()}${pad(d.getUTCMonth() + 1)}${pad(d.getUTCDate())}T${pad(d.getUTCHours())}${pad(d.getUTCMinutes())}00Z`;
 };
-const esc = (s: string) => s.replace(/[\,;]/g, (m) => `\${m}`).replace(/\n/g, "\n");
+// RFC 5545 text: backslash-escape \ , ; and turn newlines into a literal \n.
+const esc = (s: string) => s.replace(/[\\,;]/g, (m) => `\\${m}`).replace(/\n/g, "\\n");
 
 export function buildIcs(e: { uid: string; title: string; start: string; durationMin: number; location: string; description: string }) {
   const start = new Date(e.start).getTime();

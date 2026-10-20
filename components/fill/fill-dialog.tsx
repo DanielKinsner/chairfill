@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronDown, Ellipsis, FastForward, Info, PhoneCall, Send, Square, X } from "lucide-react";
 import { Bolt } from "@/components/brand";
 import { Button, Chip, IconButton, Money, Segmented, SimTag, type Tone } from "@/components/ui";
-import { slotState } from "@/components/schedule/slot-state";
 import { useDemoNow, useReducedMotionPref, useSimT } from "@/lib/hooks";
 import { reasonChips, RULE_COPY, type RankedCandidate } from "@/lib/ranking";
 import { slotRun, useDemo } from "@/lib/store";
@@ -57,7 +56,6 @@ function FillBody({ slot, onClose }: { slot: Appointment; onClose: () => void })
   const live = appointments.find((a) => a.id === slot.id) ?? slot;
 
   const run = slotRun(runs, slot.id);
-  const state = slotState(live, runs, now);
   const type = practice.appointmentTypes.find((t) => t.id === live.typeId)!;
   const provider = providers.find((p) => p.id === live.providerId)!;
   const chair = chairs.find((c) => c.id === live.chairId)!;

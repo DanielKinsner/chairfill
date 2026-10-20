@@ -73,3 +73,14 @@ describe("offer codes", () => {
     expect(offerCode("a-c1", "w02")).not.toBe(c);
   });
 });
+
+describe("calendar invite", () => {
+  it("escapes commas, semicolons and newlines the way calendars expect", async () => {
+    const { buildIcs } = await import("@/lib/adapters/calendar");
+    const ics = buildIcs({ uid: "x", title: "Cleaning", start: "2026-10-20T14:00:00-07:00", durationMin: 60, location: "1142 Spring St, Paso Robles", description: "Line one\nTwo; three" });
+    expect(ics).toContain("LOCATION:1142 Spring St\\, Paso Robles");
+    expect(ics).toContain("DESCRIPTION:Line one\\nTwo\\; three");
+    expect(ics).toContain("DTSTART:20261020T210000Z");
+    expect(ics).toContain("DTEND:20261020T220000Z");
+  });
+});

@@ -66,6 +66,8 @@ function useResolvedOffer(code: string): Resolved | null | undefined {
         return { slot, key: slot.patient.id, firstName: slot.patient.name.split(" ")[0], name: slot.patient.name, view: "won" };
     }
     return null;
+    // `runs` isn't read directly (findOfferByCode reads the store), but a run changing must re-resolve the offer.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [code, runs, appointments, patientReplies, rank]);
 }
 
