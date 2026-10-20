@@ -37,7 +37,9 @@ const OfferFlight: React.FC<{ frame: number; i: number }> = ({ frame, i }) => {
   const t = interpolate(frame, [start, end], [0, 1], { ...clamp, easing: easeInOut });
   const a = SLOT_B_CENTER;
   const b = offerTarget(i);
-  const p = bezier(t, a, { x: b.x, y: a.y + 30 }, b);
+  // Dip below the schedule first, then curve into the phone, so the bubble
+  // never skims across the other appointments.
+  const p = bezier(t, a, { x: (a.x + b.x) / 2, y: a.y + 150 }, b);
   const opacity =
     interpolate(frame, [start, start + 4], [0, 1], clamp) *
     interpolate(frame, [end - 5, end], [1, 0], clamp);
@@ -76,7 +78,8 @@ const YesFlight: React.FC<{ frame: number }> = ({ frame }) => {
   const t = interpolate(frame, [start, end], [0, 1], { ...clamp, easing: easeInOut });
   const a = ROSA_YES;
   const b = SLOT_B_CENTER;
-  const p = bezier(t, a, { x: a.x, y: b.y + 40 }, b);
+  // Rise through the gap between the phones and the schedule, entering the slot from below.
+  const p = bezier(t, a, { x: (a.x + b.x) / 2 + 60, y: b.y + 120 }, b);
   const opacity =
     interpolate(frame, [start, start + 3], [0, 1], clamp) *
     interpolate(frame, [end - 4, end], [1, 0], clamp);

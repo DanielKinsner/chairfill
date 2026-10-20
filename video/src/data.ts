@@ -33,7 +33,7 @@ export const CHAIRS: ChairRow[] = [
     chair: "Chair 4",
     provider: "Dr. Okafor",
     appointments: [
-      { time: "11:00 AM", name: "Hannah", procedure: "Exam" },
+      { time: "11:00 AM", name: "Helen", procedure: "Exam" },
       { time: "3:30 PM", name: "Diego", procedure: "Crown seat" },
       { time: "2:00 PM", name: "Ava", procedure: "Filling" },
       { time: "10:00 AM", name: "Sam", procedure: "Extraction" },
@@ -53,7 +53,7 @@ export const CHAIRS: ChairRow[] = [
   },
 ];
 
-export const CANCELLED = { time: "2:00 PM", name: "Nora", procedure: "Cleaning" };
+export const CANCELLED = { time: "2:00 PM", name: "Hannah", procedure: "Cleaning" };
 
 export const OFFER_TEXT =
   "Maple Family Dental: a cleaning opened up today, Tue 2:00 PM with Marisol. Want it? Reply YES or NO, or tap: ";

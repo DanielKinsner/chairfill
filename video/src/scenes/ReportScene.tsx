@@ -33,7 +33,7 @@ const MonoAmount: React.FC<{ text: string }> = ({ text }) => (
   <>
     {text.split("").map((ch, i) =>
       ch === "," ? (
-        <span key={i} style={{ display: "inline-block", margin: "0 -0.2em" }}>
+        <span key={i} style={{ display: "inline-block", margin: "0 -0.1em" }}>
           ,
         </span>
       ) : (

@@ -58,7 +58,7 @@ export const AppointmentBlock: React.FC<{ appt: Appointment; opacity?: number }>
 
 /**
  * Tue 2:00 PM, Chair 5. Four looks over the video:
- * booked (Nora) → cancelled (dashed grey) → offered (amber chip) → filled (solid teal + bolt + one pulse).
+ * booked (Hannah) → cancelled (dashed grey) → offered (amber chip) → filled (solid teal + bolt + one pulse).
  */
 export const SlotBlock: React.FC<{ frame: number }> = ({ frame }) => {
   const cancelP = fadeIn(frame, T.cancel, 14);

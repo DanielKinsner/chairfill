@@ -26,8 +26,8 @@ export const T = {
 
   // 10–17 s: Rosa says YES, slot turns teal
   typeStart: 274,
-  tap: 296,
-  yesBubble: 300,
+  tap: 294,
+  yesBubble: 302,
   flybackStart: 306,
   fill: 330, // slot turns solid teal + chime
   confirmed: 332,

@@ -51,8 +51,10 @@ export const Phone: React.FC<{
     caret = frame < typing.tap && Math.floor(frame / 8) % 2 === 0;
   }
   const sendActive = typed.length > 0;
-  const ripple = typing ? interpolate(frame, [typing.tap, typing.tap + 22], [0, 1], clamp) : 0;
-  const rippleOn = typing ? frame >= typing.tap && frame < typing.tap + 22 : false;
+  const ripple = typing
+    ? interpolate(frame, [typing.tap, typing.tap + 24], [0, 1], { ...clamp, easing: easeOut })
+    : 0;
+  const rippleOn = typing ? frame >= typing.tap && frame < typing.tap + 24 : false;
   const press = typing
     ? interpolate(frame, [typing.tap, typing.tap + 3, typing.tap + 9], [1, 0.86, 1], clamp)
     : 1;
@@ -159,7 +161,7 @@ export const Phone: React.FC<{
                 opacity: fadeIn(frame, firstAt),
               }}
             >
-              Today <span style={{ fontFamily: fonts.mono, fontSize: 12 }}>7:52 AM</span>
+              Today <span style={{ fontFamily: fonts.mono, fontSize: 12 }}>9:41 AM</span>
             </div>
             {messages.map((m, i) =>
               frame >= m.at ? (
@@ -231,14 +233,14 @@ export const Phone: React.FC<{
                 <div
                   style={{
                     position: "absolute",
-                    left: SEND / 2 - (14 + 34 * ripple),
-                    top: SEND / 2 - (14 + 34 * ripple),
-                    width: (14 + 34 * ripple) * 2,
-                    height: (14 + 34 * ripple) * 2,
+                    left: SEND / 2 - (16 + 40 * ripple),
+                    top: SEND / 2 - (16 + 40 * ripple),
+                    width: (16 + 40 * ripple) * 2,
+                    height: (16 + 40 * ripple) * 2,
                     borderRadius: "50%",
                     border: `2px solid ${colors.teal}`,
-                    backgroundColor: "rgba(15,139,141,0.10)",
-                    opacity: interpolate(ripple, [0, 1], [0.7, 0], { ...clamp, easing: easeOut }),
+                    backgroundColor: "rgba(15,139,141,0.16)",
+                    opacity: 0.9 * (1 - ripple),
                   }}
                 />
               ) : null}

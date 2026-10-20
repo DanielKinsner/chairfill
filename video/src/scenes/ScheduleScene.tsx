@@ -57,7 +57,7 @@ export const ScheduleScene: React.FC = () => {
         </div>
         <div style={{ color: colors.slate }}>
           Tue, Oct 20 ·{" "}
-          <span style={{ fontFamily: fonts.mono, color: colors.ink, fontSize: 22 }}>7:52 AM</span>
+          <span style={{ fontFamily: fonts.mono, color: colors.ink, fontSize: 22 }}>9:41 AM</span>
         </div>
       </div>
 
@@ -118,7 +118,7 @@ export const ScheduleScene: React.FC = () => {
           const folds = r < 2; // Chairs 3 and 4 fold away at 3 s
           const rowEnter = fadeIn(frame, T.scheduleIn + 6 + r * 4, 12);
           const height = folds ? SCHEDULE.rowH * (1 - focus) : SCHEDULE.rowH;
-          const rowOpacity = folds ? interpolate(focus, [0, 0.55], [1, 0], clamp) : 1;
+          const rowOpacity = folds ? interpolate(focus, [0, 0.6], [1, 0], clamp) : 1;
           return (
             <div
               key={row.chair}
@@ -127,7 +127,7 @@ export const ScheduleScene: React.FC = () => {
                 display: "flex",
                 height,
                 overflow: "hidden",
-                opacity: rowEnter * rowOpacity,
+                opacity: rowEnter,
               }}
             >
               <div
@@ -145,11 +145,11 @@ export const ScheduleScene: React.FC = () => {
                   width: SCHEDULE.rowHeaderW,
                   flexShrink: 0,
                   padding: "0 22px",
+                  paddingTop: 36, // top-aligned so folding rows close like a drawer
                   display: "flex",
                   flexDirection: "column",
-                  justifyContent: "center",
                   gap: 4,
-                  opacity: r === 2 ? 1 : dim,
+                  opacity: (r === 2 ? 1 : dim) * rowOpacity,
                 }}
               >
                 <div style={{ fontSize: 21, fontWeight: 600, color: colors.ink }}>{row.chair}</div>
@@ -168,7 +168,7 @@ export const ScheduleScene: React.FC = () => {
                   }}
                 >
                   {appt ? (
-                    <AppointmentBlock appt={appt} opacity={dim} />
+                    <AppointmentBlock appt={appt} opacity={dim * rowOpacity} />
                   ) : (
                     <SlotBlock frame={frame} />
                   )}
