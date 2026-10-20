@@ -49,7 +49,9 @@ export function describe(run: FillRun, e: TimelineEntry): { text: string; detail
     case "notified-declined":
       return { text: `Thank-you texted to ${who}`, tone: "muted" };
     case "booked":
-      return { text: "Written to the schedule", detail: "Practice software updated (simulated).", tone: "win" };
+      return run.slotId === "test-slot"
+        ? { text: "Test booking recorded", detail: "The real schedule wasn't touched.", tone: "win" }
+        : { text: "Written to the schedule", detail: "Practice software updated (simulated).", tone: "win" };
     case "late-yes":
       return { text: `${who} said yes after it was filled`, detail: "Already told it's taken. Still on the list.", tone: "muted" };
     case "late-no":

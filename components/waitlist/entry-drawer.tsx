@@ -35,7 +35,8 @@ function Toggle({ on, onClick, children }: { on: boolean; onClick: () => void; c
 }
 
 export function EntryDrawer({ entry, onClose }: { entry: WaitlistEntry | null; onClose: () => void }) {
-  const types = useDemo((s) => s.practice.appointmentTypes.filter((t) => t.waitlist));
+  const allTypes = useDemo((s) => s.practice.appointmentTypes);
+  const types = allTypes.filter((t) => t.waitlist);
   const providers = useDemo((s) => s.providers);
   const add = useDemo((s) => s.addWaitlist);
   const update = useDemo((s) => s.updateWaitlist);

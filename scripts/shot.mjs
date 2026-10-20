@@ -13,6 +13,6 @@ for (const c of clicks) {
   else await page.click(c);
   await page.waitForTimeout(400);
 }
-await page.screenshot({ path: out, fullPage: false });
+await page.screenshot({ path: out, fullPage: process.env.FULL === "1" });
 await browser.close();
 console.log("saved", out);
