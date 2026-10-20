@@ -248,7 +248,7 @@ export function reasonChips(c: Candidate, types: AppointmentType[], entry?: Wait
           : { label: `Prefers ${pref}`, tone: "neutral", title: c.windowMatch === "partial" ? "Matches the day or the time, not both." : "Outside what they asked for." },
       );
     }
-    chips.push({ label: `Waiting ${c.waitingDays} days`, tone: "neutral" });
+    chips.push({ label: `Waiting ${c.waitingDays} ${c.waitingDays === 1 ? "day" : "days"}`, tone: "neutral" });
   }
   if (c.insurance?.status === "check") chips.push({ label: "Check insurance", tone: "warn", title: c.insurance.note });
   if (c.insurance?.status === "expired") chips.push({ label: "Insurance expired", tone: "warn", title: c.insurance.note });

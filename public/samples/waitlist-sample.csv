@@ -1,0 +1,11 @@
+first_name,last_name,mobile,visit,urgency,days,times,added,insurance,notes
+Teresa,Gallegos,805-555-0102,Cleaning,routine,Mon;Wed,morning,2026-10-08,Delta Dental PPO,
+Ward,Ellison,(805) 555-0106,Filling,soon,Tue;Thu,afternoon,2026-10-11,self-pay,Prefers Dr. Calloway
+Ines,Barrios,8055550110,Perio maintenance,routine,any,any,2026-09-30,MetLife,
+Clay,Hanley,805.555.0113,Crown prep,urgent,Wed;Fri,morning,2026-10-15,Cigna Dental,"Broken molar, temp crown placed 10/15"
+Mina,Ahn,805-555-0116,New patient exam,routine,Tue,afternoon,2026-10-17,check: Aetna DMO,Referred by Dr. Ishii
+Russ,Novak,,Cleaning,routine,Fri,morning,2026-10-02,Delta Dental PPO,Landline only
+Paula,Serrano,805-555-0118,Whitening,routine,Mon,any,2026-10-12,,
+Gabe,Orozco,805-555-0121,RCT,urgent,any,any,2026-10-19,Delta Dental PPO,"Swelling, lower right"
+Celeste,Rocha,805-555-0123,Limited exam,soon,Mon;Tue,midday,2026-10-18,Denti-Cal,
+Rosa,Delgado-Ruiz,805 555 0117,Cleaning,routine,Thu,afternoon,2026-10-19,Delta Dental PPO,Might be Rosa Delgado's second record
