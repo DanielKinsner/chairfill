@@ -65,6 +65,24 @@ test("the 90-second demo", async ({ page, browser }) => {
   await expect(page).toHaveURL(/\/schedule/);
 });
 
+test("a move-up fills the crown slot and opens their old time for the next fill", async ({ page }) => {
+  await page.goto("/schedule");
+  await page.evaluate(() => localStorage.clear());
+  await page.goto("/schedule?fill=a-c2");
+  const dialog = page.getByRole("dialog", { name: /Fill Wednesday, October 21 at 10:00 AM/ });
+  await expect(dialog.getByTestId("candidate").first()).toContainText("Move-up from Wed, Oct 28 8:00 AM");
+  await dialog.getByTestId("send-offers").click();
+  await expect(dialog.getByTestId("stage-slot")).toHaveAttribute("data-state", "booked", { timeout: 45_000 });
+  await expect(dialog.getByTestId("stage-slot")).toContainText("Luis Paredes");
+  // Dennis said yes after Luis did: logged, not double-booked.
+  await expect(dialog.getByText("Dennis said yes after it was filled")).toBeVisible({ timeout: 30_000 });
+  await dialog.getByRole("button", { name: "Done" }).click();
+  // Luis's old Wednesday 8:00 AM is open now, and the desk is offered the next fill.
+  await page.getByRole("link", { name: "Fill it" }).click();
+  await expect(page.getByRole("dialog", { name: /Fill Wednesday, October 28 at 8:00 AM/ })).toBeVisible();
+  await expect(page.getByText("Luis Paredes moved up")).toBeVisible();
+});
+
 test("share image and 404 are in place", async ({ request, page }) => {
   const og = await request.get("/opengraph-image");
   expect(og.status()).toBe(200);

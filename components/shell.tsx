@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { CircleHelp, RotateCcw, X } from "lucide-react";
 import { Wordmark } from "./brand";
 import { Button, Dialog, IconButton, Segmented } from "./ui";
@@ -169,8 +169,23 @@ export function TopBar() {
 
 export function Toaster() {
   const toasts = useRuntime((s) => s.toasts);
+  const ref = useRef<HTMLDivElement>(null);
+  // Toasts live in the browser's top layer so they show above an open dialog (the fill screen is one).
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || typeof el.showPopover !== "function") return;
+    try {
+      if (el.matches(":popover-open")) el.hidePopover();
+      if (toasts.length) el.showPopover();
+    } catch {}
+  }, [toasts]);
   return (
-    <div aria-live="polite" className="pointer-events-none fixed bottom-4 right-4 z-[60] flex w-[min(380px,calc(100vw-2rem))] flex-col gap-2">
+    <div
+      ref={ref}
+      popover="manual"
+      aria-live="polite"
+      className="pointer-events-none fixed inset-auto bottom-4 left-4 z-[60] m-0 flex w-[min(380px,calc(100vw-2rem))] flex-col gap-2 overflow-visible border-0 bg-transparent p-0"
+    >
       {toasts.map((t) => (
         <div
           key={t.id}

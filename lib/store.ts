@@ -38,6 +38,8 @@ interface Runtime {
   isLeader: boolean;
   /** Slots ChairFill just filled (slot id -> real ms), for the one soft pulse on the schedule. */
   flashes: Record<string, number>;
+  /** The slot whose fill screen is open, if any. */
+  openFill: string | null;
 }
 
 export const useRuntime = create<Runtime>(() => ({
@@ -47,6 +49,7 @@ export const useRuntime = create<Runtime>(() => ({
   toasts: [],
   isLeader: true,
   flashes: {},
+  openFill: null,
 }));
 
 export function demoNowMs(): number {
@@ -336,11 +339,14 @@ function applyEffect(run: FillRun, e: Effect) {
       });
       void pms.writeAppointment(slot.id, offer.name);
       useRuntime.setState((r) => ({ flashes: { ...r.flashes, [slot.id]: Date.now() } }));
-      pushToast({
-        tone: "filled",
-        title: `Chair filled: ${offer.name}`,
-        body: `${fmtDay(slot.start)} at ${fmtTime(slot.start)}. $${run.value.toLocaleString()} back on the books.`,
-      });
+      // The fill screen already says so; only toast when the desk is looking elsewhere.
+      if (useRuntime.getState().openFill !== slot.id) {
+        pushToast({
+          tone: "filled",
+          title: `Chair filled: ${offer.name}`,
+          body: `${fmtDay(slot.start)} at ${fmtTime(slot.start)}. $${run.value.toLocaleString()} back on the books.`,
+        });
+      }
       if (freed) {
         setTimeout(
           () =>

@@ -8,16 +8,20 @@ import { Bolt } from "@/components/brand";
 import { Button, Chip, IconButton, Money, Segmented, SimTag, type Tone } from "@/components/ui";
 import { useDemoNow, useReducedMotionPref, useSimT } from "@/lib/hooks";
 import { reasonChips, RULE_COPY, type RankedCandidate } from "@/lib/ranking";
-import { slotRun, useDemo } from "@/lib/store";
+import { slotRun, useDemo, useRuntime } from "@/lib/store";
 import { renderTemplate, smsSegments } from "@/lib/templates";
 import { offerCode } from "@/lib/offer-code";
 import { durationWords, fmtDay, fmtDayLong, fmtHHMM, fmtRange, fmtTime, isQuietHours, minutesBetween, relativeAgo, smsDay, stamp } from "@/lib/time";
-import type { Appointment, Exclusion, FillRun, Settings } from "@/lib/types";
+import type { Appointment, Exclusion, FillRun, Settings, WaitlistEntry } from "@/lib/types";
 import { OFFER_STATUS, PhoneThread } from "./phone";
 import { FillTimeline } from "./timeline";
 
 export function FillDialog({ slot, onClose }: { slot: Appointment; onClose: () => void }) {
   const ref = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    useRuntime.setState({ openFill: slot.id });
+    return () => useRuntime.setState({ openFill: null });
+  }, [slot.id]);
   useEffect(() => {
     const d = ref.current;
     if (d && !d.open) d.showModal();
@@ -64,6 +68,8 @@ function FillBody({ slot, onClose }: { slot: Appointment; onClose: () => void })
   const [skipped, setSkipped] = useState<string[]>([]);
   // Ranking is frozen while this dialog is open so rows don't jump around mid-decision.
   const [ranking] = useState(() => rank(slot.id));
+  // Same for the waitlist: the winner leaves it when booked, but their row should keep its reasons.
+  const [entries] = useState(() => useDemo.getState().waitlist);
   const chosen = (ranking?.ranked ?? []).filter((c) => !skipped.includes(c.key));
   const preStart = !run;
   const showRun = run;
@@ -151,6 +157,7 @@ function FillBody({ slot, onClose }: { slot: Appointment; onClose: () => void })
                   onToggle={() => setSkipped((s) => (s.includes(c.key) ? s.filter((k) => k !== c.key) : [...s, c.key]))}
                   onOnly={() => startFill(slot.id, { candidateKeys: [c.key], manual: true, strategy: "one" })}
                   onBook={() => bookDirect(slot.id, c.key)}
+                  entry={entries.find((w) => w.id === c.key)}
                 />
               ))}
             </ol>
@@ -307,7 +314,9 @@ function CandidateRow({
   onToggle,
   onOnly,
   onBook,
+  entry,
 }: {
+  entry?: WaitlistEntry;
   index: number;
   c: RankedCandidate;
   run?: FillRun;
@@ -319,8 +328,6 @@ function CandidateRow({
   onBook: () => void;
 }) {
   const types = useDemo((s) => s.practice.appointmentTypes);
-  const waitlist = useDemo((s) => s.waitlist);
-  const entry = waitlist.find((w) => w.id === c.key);
   const chips = c.procedureId ? reasonChips(c, types, entry) : [];
   const offer = run?.offers.find((o) => o.key === c.key);
   const status = offer ? OFFER_STATUS[offer.status] : run ? { label: run.status === "running" ? "In line" : "Not texted", tone: "neutral" as Tone } : undefined;

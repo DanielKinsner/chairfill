@@ -49,3 +49,4 @@ next-env.d.ts
 # remotion
 /video/node_modules/
 /video/out/
+
