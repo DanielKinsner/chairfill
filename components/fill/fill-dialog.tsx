@@ -166,7 +166,7 @@ function FillBody({ slot, onClose }: { slot: Appointment; onClose: () => void })
         </section>
 
         {/* Right: the stage */}
-        <section className="order-1 flex min-h-0 flex-col bg-white md:order-2" aria-label="Fill progress">
+        <section className="order-1 flex flex-col bg-white md:order-2 md:min-h-0" aria-label="Fill progress">
           <Stage slot={live} run={showRun} preStart={preStart} type={type} provider={provider} chairName={chair.name}>
             {preStart ? (
               <Preview
@@ -189,7 +189,7 @@ function FillBody({ slot, onClose }: { slot: Appointment; onClose: () => void })
           <footer className="border-t border-line bg-white px-4 py-3 md:px-6">
             {preStart ? (
               <div className="flex flex-wrap items-center gap-3">
-                <div className="min-w-0 flex-1 text-[12.5px] text-slate-ink">
+                <div className="w-full min-w-0 text-[12.5px] text-slate-ink sm:w-auto sm:flex-1">
                   {pastSlot ? (
                     <span className="text-amber-ink">This time has already passed.</span>
                   ) : quiet ? (
@@ -212,7 +212,7 @@ function FillBody({ slot, onClose }: { slot: Appointment; onClose: () => void })
                 <Button variant="secondary" onClick={onClose}>
                   Not now
                 </Button>
-                <Button variant="primary" size="lg" disabled={chosen.length === 0 || pastSlot || quiet} onClick={send} data-testid="send-offers">
+                <Button variant="primary" size="lg" disabled={chosen.length === 0 || pastSlot || quiet} onClick={send} data-testid="send-offers" className="max-sm:flex-1">
                   <Send className="size-4" strokeWidth={2} />
                   {strategy === "batch" ? `Text ${firstNames(chosen.slice(0, settings.batchSize))}` : `Text ${chosen[0]?.firstName ?? "the first person"}`}
                 </Button>
@@ -461,7 +461,7 @@ function Stage({
   const phones = run ? run.offers.slice(-Math.max(run.batchSize, 3)) : [];
 
   return (
-    <div className="scroll-thin flex min-h-0 flex-1 flex-col overflow-y-auto px-4 py-4 md:px-6 md:py-5">
+    <div className="scroll-thin flex flex-col px-4 py-4 md:min-h-0 md:flex-1 md:overflow-y-auto md:px-6 md:py-5">
       {/* The slot itself */}
       <div className="flex items-center gap-3">
         <motion.div
@@ -575,7 +575,7 @@ function Preview({ first, templates, vars }: { first?: RankedCandidate; template
         <p className="text-[15px] font-semibold text-ink">Here&apos;s what happens when you hit send</p>
         <ol className="mt-3 space-y-2.5">
           {[
-            "The offer goes out by text, in the order on the left.",
+            "The offer goes out by text, in the order shown.",
             "The first person to reply YES (or tap the link) gets the chair.",
             "Everyone else gets a polite “it's taken” and stays on the list.",
             "The appointment is written to the schedule. No phone calls.",
@@ -603,7 +603,7 @@ function RunFooter({ run, onClose, onStop, onRetry }: { run: FillRun; onClose: (
     const out = run.offers.filter((o) => ["sent", "delivered", "read", "typing"].includes(o.status)).length;
     return (
       <div className="flex flex-wrap items-center gap-3">
-        <p className="min-w-0 flex-1 text-[13px] text-ink-2">
+        <p className="w-full min-w-0 text-[13px] text-ink-2 sm:w-auto sm:flex-1">
           <span className="font-semibold text-ink">{out} {out === 1 ? "offer" : "offers"} out.</span> First yes gets the chair. You can close this; it keeps going.
         </p>
         <Button variant="danger" onClick={onStop}>
@@ -655,7 +655,7 @@ function RunFooter({ run, onClose, onStop, onRetry }: { run: FillRun; onClose: (
   }
   return (
     <div className="flex flex-wrap items-center gap-3">
-      <p className="min-w-0 flex-1 text-[13px] text-ink-2">
+      <p className="w-full min-w-0 text-[13px] text-ink-2 sm:w-auto sm:flex-1">
         {run.status === "cancelled" ? "Stopped. Nobody else will be texted." : "Nobody said yes this round."} The slot is still open.
       </p>
       <Button variant="secondary" onClick={onClose}>
