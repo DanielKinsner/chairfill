@@ -1,0 +1,212 @@
+{
+  "note": "Scripted demo replies, keyed by patient id. reply: yes | no | none. afterSec: seconds after the offer is sent.",
+  "default": {
+    "reply": "none",
+    "afterSec": 0
+  },
+  "patients": {
+    "p-ghendricks": {
+      "reply": "no",
+      "afterSec": 45,
+      "text": "Can't do today, thank you though!"
+    },
+    "p-lparedes": {
+      "reply": "yes",
+      "afterSec": 25,
+      "text": "Yes. Sooner the better"
+    },
+    "p-dkowalski": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "p-wsimmons": {
+      "reply": "no",
+      "afterSec": 30,
+      "text": "No thanks, Thursday still works"
+    },
+    "w01": {
+      "reply": "yes",
+      "afterSec": 20,
+      "text": "YES! Perfect timing"
+    },
+    "w02": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w03": {
+      "reply": "no",
+      "afterSec": 30,
+      "text": "Can't, sorry"
+    },
+    "w04": {
+      "reply": "no",
+      "afterSec": 30,
+      "text": "Can't, sorry"
+    },
+    "w05": {
+      "reply": "yes",
+      "afterSec": 25,
+      "text": "Yes please"
+    },
+    "w06": {
+      "reply": "yes",
+      "afterSec": 35,
+      "text": "yes!!"
+    },
+    "w07": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w08": {
+      "reply": "yes",
+      "afterSec": 40,
+      "text": "Sí, yes"
+    },
+    "w09": {
+      "reply": "no",
+      "afterSec": 20,
+      "text": "No"
+    },
+    "w10": {
+      "reply": "yes",
+      "afterSec": 50,
+      "text": "Yes I'll be there"
+    },
+    "w11": {
+      "reply": "yes",
+      "afterSec": 18,
+      "text": "YES"
+    },
+    "w12": {
+      "reply": "no",
+      "afterSec": 25,
+      "text": "Can't today, mornings only"
+    },
+    "w13": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w14": {
+      "reply": "no",
+      "afterSec": 22,
+      "text": "Not that day, sorry"
+    },
+    "w15": {
+      "reply": "yes",
+      "afterSec": 15,
+      "text": "Yes!"
+    },
+    "w16": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w17": {
+      "reply": "no",
+      "afterSec": 30,
+      "text": "No"
+    },
+    "w18": {
+      "reply": "yes",
+      "afterSec": 40,
+      "text": "Yes, see you then"
+    },
+    "w19": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w20": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w21": {
+      "reply": "yes",
+      "afterSec": 40,
+      "text": "YES"
+    },
+    "w22": {
+      "reply": "no",
+      "afterSec": 25,
+      "text": "No thank you"
+    },
+    "w23": {
+      "reply": "yes",
+      "afterSec": 60,
+      "text": "ok yes"
+    },
+    "w24": {
+      "reply": "no",
+      "afterSec": 35,
+      "text": "Can't get off work"
+    },
+    "w25": {
+      "reply": "yes",
+      "afterSec": 22,
+      "text": "Yes"
+    },
+    "w26": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w27": {
+      "reply": "no",
+      "afterSec": 20,
+      "text": "No"
+    },
+    "w28": {
+      "reply": "yes",
+      "afterSec": 45,
+      "text": "YES THANK YOU"
+    },
+    "w30": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w31": {
+      "reply": "yes",
+      "afterSec": 12,
+      "text": "Yes please!! I'll take it"
+    },
+    "w32": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w33": {
+      "reply": "no",
+      "afterSec": 28,
+      "text": "No"
+    },
+    "w34": {
+      "reply": "yes",
+      "afterSec": 30,
+      "text": "Yes"
+    },
+    "w35": {
+      "reply": "yes",
+      "afterSec": 26,
+      "text": "Yes"
+    },
+    "w36": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w37": {
+      "reply": "no",
+      "afterSec": 33,
+      "text": "Not this time"
+    },
+    "w38": {
+      "reply": "yes",
+      "afterSec": 16,
+      "text": "YES omw"
+    },
+    "w39": {
+      "reply": "none",
+      "afterSec": 0
+    },
+    "w40": {
+      "reply": "no",
+      "afterSec": 24,
+      "text": "No"
+    }
+  }
+}

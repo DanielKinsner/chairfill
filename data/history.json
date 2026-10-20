@@ -1,0 +1,336 @@
+{
+  "month": "2026-10",
+  "fills": [
+    {
+      "id": "h01",
+      "status": "filled",
+      "slotStart": "2026-10-01T14:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "cleaning",
+      "value": 180,
+      "winner": "Tamsin Ford",
+      "offers": [
+        "Tamsin Ford",
+        "Bill Greer",
+        "Stacy Varga"
+      ],
+      "minutesToFill": 6,
+      "cancelledAt": "2026-10-01T09:12:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "h02",
+      "status": "filled",
+      "slotStart": "2026-10-02T09:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "perio",
+      "value": 220,
+      "winner": "Jorge Ibarra",
+      "offers": [
+        "Jorge Ibarra",
+        "Hana Sato"
+      ],
+      "minutesToFill": 14,
+      "cancelledAt": "2026-10-01T16:40:00-07:00",
+      "strategy": "one"
+    },
+    {
+      "id": "h03",
+      "status": "filled",
+      "slotStart": "2026-10-05T15:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "cleaning",
+      "value": 180,
+      "winner": "Colleen Pratt",
+      "offers": [
+        "Colleen Pratt",
+        "Rudy Alcantar",
+        "Imelda Cruz"
+      ],
+      "minutesToFill": 9,
+      "cancelledAt": "2026-10-05T08:20:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "h04",
+      "status": "filled",
+      "slotStart": "2026-10-06T10:00:00-07:00",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "typeId": "filling",
+      "value": 260,
+      "winner": "Neil Okonkwo",
+      "offers": [
+        "Neil Okonkwo",
+        "Pete Lindgren",
+        "Courtney Ames"
+      ],
+      "minutesToFill": 12,
+      "cancelledAt": "2026-10-05T17:55:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "h05",
+      "status": "filled",
+      "slotStart": "2026-10-07T08:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "perio",
+      "value": 220,
+      "winner": "Stacy Varga",
+      "offers": [
+        "Stacy Varga",
+        "Yusuf Haddad",
+        "Bill Greer"
+      ],
+      "minutesToFill": 4,
+      "cancelledAt": "2026-10-06T15:31:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "h06",
+      "status": "filled",
+      "slotStart": "2026-10-08T13:00:00-07:00",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "typeId": "crown",
+      "value": 1200,
+      "winner": "Rudy Alcantar",
+      "offers": [
+        "Rudy Alcantar",
+        "Pete Lindgren",
+        "Jorge Ibarra",
+        "Neil Okonkwo",
+        "Hana Sato",
+        "Imelda Cruz"
+      ],
+      "minutesToFill": 31,
+      "cancelledAt": "2026-10-08T08:05:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "h07",
+      "status": "filled",
+      "slotStart": "2026-10-09T10:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "cleaning",
+      "value": 180,
+      "winner": "Hana Sato",
+      "offers": [
+        "Hana Sato",
+        "Courtney Ames",
+        "Tamsin Ford"
+      ],
+      "minutesToFill": 7,
+      "cancelledAt": "2026-10-09T07:48:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "h08",
+      "status": "filled",
+      "slotStart": "2026-10-12T16:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "newpt",
+      "value": 240,
+      "winner": "Bill Greer",
+      "offers": [
+        "Bill Greer",
+        "Yusuf Haddad",
+        "Colleen Pratt"
+      ],
+      "minutesToFill": 22,
+      "cancelledAt": "2026-10-12T11:15:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "h09",
+      "status": "filled",
+      "slotStart": "2026-10-13T14:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "perio",
+      "value": 220,
+      "winner": "Imelda Cruz",
+      "offers": [
+        "Imelda Cruz",
+        "Rosa Delgado",
+        "Stacy Varga"
+      ],
+      "minutesToFill": 8,
+      "cancelledAt": "2026-10-13T10:01:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "h10",
+      "status": "filled",
+      "slotStart": "2026-10-14T09:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "cleaning",
+      "value": 180,
+      "winner": "Pete Lindgren",
+      "offers": [
+        "Pete Lindgren",
+        "Rudy Alcantar",
+        "Neil Okonkwo"
+      ],
+      "minutesToFill": 11,
+      "cancelledAt": "2026-10-13T16:22:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "h11",
+      "status": "filled",
+      "slotStart": "2026-10-15T08:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "perio",
+      "value": 220,
+      "winner": "Courtney Ames",
+      "offers": [
+        "Courtney Ames",
+        "Tamsin Ford"
+      ],
+      "minutesToFill": 3,
+      "cancelledAt": "2026-10-15T07:10:00-07:00",
+      "strategy": "one"
+    },
+    {
+      "id": "h12",
+      "status": "filled",
+      "slotStart": "2026-10-16T11:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "cleaning",
+      "value": 180,
+      "winner": "Yusuf Haddad",
+      "offers": [
+        "Yusuf Haddad",
+        "Bill Greer",
+        "Hana Sato"
+      ],
+      "minutesToFill": 10,
+      "cancelledAt": "2026-10-16T08:44:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "h13",
+      "status": "filled",
+      "slotStart": "2026-10-19T09:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "cleaning",
+      "value": 180,
+      "winner": "Rebecca Lund",
+      "offers": [
+        "Rebecca Lund",
+        "Carmen Ochoa",
+        "Kevin Nakamura"
+      ],
+      "minutesToFill": 11,
+      "cancelledAt": "2026-10-18T21:14:00-07:00",
+      "strategy": "batch",
+      "notes": "Cancelled Sunday night online. Offers waited for quiet hours to end at 8:00 AM."
+    },
+    {
+      "id": "h14",
+      "status": "filled",
+      "slotStart": "2026-10-20T08:00:00-07:00",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "typeId": "filling",
+      "value": 260,
+      "winner": "Victor Amaya",
+      "offers": [
+        "Victor Amaya",
+        "Mei-Ling Cho",
+        "Brandon Tull"
+      ],
+      "minutesToFill": 12,
+      "cancelledAt": "2026-10-19T14:58:00-07:00",
+      "strategy": "batch"
+    },
+    {
+      "id": "u1",
+      "status": "unfilled",
+      "slotStart": "2026-10-02T11:00:00-07:00",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "typeId": "rootcanal",
+      "value": 980,
+      "offers": [
+        "Jorge Ibarra"
+      ],
+      "cancelledAt": "2026-10-02T10:20:00-07:00",
+      "reason": "Under an hour's notice. Only one patient fit.",
+      "strategy": "batch"
+    },
+    {
+      "id": "u2",
+      "status": "unfilled",
+      "slotStart": "2026-10-07T16:00:00-07:00",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "typeId": "exam",
+      "value": 95,
+      "offers": [],
+      "cancelledAt": "2026-10-07T15:40:00-07:00",
+      "reason": "Cancelled 20 minutes before. Not worth texting.",
+      "strategy": "batch"
+    },
+    {
+      "id": "u3",
+      "status": "unfilled",
+      "slotStart": "2026-10-09T12:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "cleaning",
+      "value": 180,
+      "offers": [
+        "Colleen Pratt",
+        "Hana Sato",
+        "Yusuf Haddad"
+      ],
+      "cancelledAt": "2026-10-09T09:30:00-07:00",
+      "reason": "Friday lunch hour. Nobody bit.",
+      "strategy": "batch"
+    },
+    {
+      "id": "u4",
+      "status": "unfilled",
+      "slotStart": "2026-10-14T15:00:00-07:00",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "typeId": "filling",
+      "value": 260,
+      "offers": [
+        "Neil Okonkwo",
+        "Courtney Ames",
+        "Pete Lindgren"
+      ],
+      "cancelledAt": "2026-10-14T13:05:00-07:00",
+      "reason": "Three offers, no replies within the window.",
+      "strategy": "batch"
+    },
+    {
+      "id": "u5",
+      "status": "unfilled",
+      "slotStart": "2026-10-19T16:00:00-07:00",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "typeId": "cleaning",
+      "value": 180,
+      "offers": [
+        "Derek Lindqvist"
+      ],
+      "cancelledAt": "2026-10-19T14:50:00-07:00",
+      "reason": "Offered once at 3:05 PM. No reply before the slot.",
+      "strategy": "batch"
+    }
+  ]
+}

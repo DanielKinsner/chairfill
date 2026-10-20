@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "demo": "npm install --no-audit --no-fund && next dev --turbopack",
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "data": "node scripts/generate-data.mjs"
   },
   "dependencies": {
     "framer-motion": "^14.4.0",

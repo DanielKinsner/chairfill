@@ -1,0 +1,6 @@
+{
+  "offer": "Maple Family Dental: a {procedure} opened up {day} at {time} with {provider}. Want it? Reply YES or NO, or tap {link}",
+  "confirm": "You're booked, {first_name}: {procedure} {day} at {time} with {provider}. 1142 Spring St, Suite 2B. Need to change it? Call (805) 555-0100.",
+  "taken": "Thanks, {first_name}. That {time} spot just got taken. You're still on our list, and we'll text you next time.",
+  "declined": "No problem, {first_name}. You're still on our list."
+}

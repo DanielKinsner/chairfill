@@ -1,0 +1,5144 @@
+{
+  "weekStarts": [
+    "2026-10-19",
+    "2026-10-26"
+  ],
+  "appointments": [
+    {
+      "id": "a001",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-19T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p001",
+        "name": "Maddie Stokes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a009",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-19T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p009",
+        "name": "Jenna Zamora"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a018",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-19T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p018",
+        "name": "Matt Carver"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a028",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-19T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p028",
+        "name": "Olivia Dawson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a038",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-19T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "perio",
+      "patient": {
+        "id": "p038",
+        "name": "Martha Klein"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a002",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-19T08:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p002",
+        "name": "Gwen Gomez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a010",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-19T08:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p010",
+        "name": "Megan Zimmerman"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a011",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-19T09:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p011",
+        "name": "Craig Medina"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a019",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-19T09:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p019",
+        "name": "Sandra Becker"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a029",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-19T09:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p029",
+        "name": "Ruby Zimmerman"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "booked",
+      "id": "a-h13",
+      "chairId": "ch5",
+      "typeId": "cleaning",
+      "source": "chairfill",
+      "fillId": "h13",
+      "patient": {
+        "id": "p-rlund",
+        "name": "Rebecca Lund",
+        "phone": "(805) 555-0103"
+      },
+      "providerId": "vega",
+      "start": "2026-10-19T09:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a003",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-19T09:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p003",
+        "name": "Martha Hayes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a020",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-19T09:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p020",
+        "name": "Jill Walsh"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a030",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-19T09:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p030",
+        "name": "Noah Padilla"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a039",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-19T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p039",
+        "name": "Karen Becker"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a012",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-19T10:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p012",
+        "name": "Gary Klein"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a021",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-19T10:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p021",
+        "name": "Lucas Estrada"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a031",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-19T10:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p031",
+        "name": "Sue Klein"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a004",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-19T11:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p004",
+        "name": "Linda Jansen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a013",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-19T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p013",
+        "name": "Martha Huerta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a022",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-19T11:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p022",
+        "name": "Jill Crane"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a005",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-19T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p005",
+        "name": "Wes Benson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a023",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-19T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p023",
+        "name": "Donna Crane"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a032",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-19T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p032",
+        "name": "Audrey Whitley"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "no-show",
+      "id": "a-ns1",
+      "chairId": "ch1",
+      "typeId": "filling",
+      "patient": {
+        "id": "p-bkimball",
+        "name": "Brett Kimball"
+      },
+      "providerId": "calloway",
+      "start": "2026-10-19T13:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a014",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-19T13:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p014",
+        "name": "Russ Velasquez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a024",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-19T13:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p024",
+        "name": "Audrey Benson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a033",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-19T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p033",
+        "name": "Heidi Chavez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a040",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-19T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "newpt",
+      "patient": {
+        "id": "p040",
+        "name": "Angela Holt"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a015",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-19T13:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p015",
+        "name": "Celeste Contreras"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a025",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-19T13:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p025",
+        "name": "Miguel Nguyen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a006",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-19T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p006",
+        "name": "Jackie Tanaka"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a034",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-19T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p034",
+        "name": "Bryce Salas"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a041",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-19T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p041",
+        "name": "Diego Larsen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a016",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-19T14:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p016",
+        "name": "Stella Sandoval"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a026",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-19T14:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p026",
+        "name": "Diego Garza"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a035",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-19T15:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p035",
+        "name": "Matt Novak"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a042",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-19T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p042",
+        "name": "Shawn Pacheco"
+      },
+      "status": "booked",
+      "note": "Pre-med (amoxicillin) — hip replacement 2024"
+    },
+    {
+      "id": "a007",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-19T15:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p007",
+        "name": "Valerie Chavez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a027",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-19T15:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p027",
+        "name": "Ron Hale"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a036",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-19T15:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p036",
+        "name": "Miguel Cobb"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "cancelled",
+      "id": "a-u1",
+      "chairId": "ch5",
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p-pferreira",
+        "name": "Paul Ferreira"
+      },
+      "fillId": "u5",
+      "cancel": {
+        "at": "2026-10-19T14:50:00-07:00",
+        "via": "Phone",
+        "reason": "Stuck at work in Atascadero."
+      },
+      "providerId": "vega",
+      "start": "2026-10-19T16:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a008",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-19T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p008",
+        "name": "Beatriz Barrios"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a017",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-19T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p017",
+        "name": "Maddie Meidna"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a037",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-19T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p037",
+        "name": "Laura Yates"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a043",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-20T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p043",
+        "name": "Wade Novak"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a053",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-20T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p053",
+        "name": "Cindy Baird"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a061",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-20T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p061",
+        "name": "Karen Espinoza"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "booked",
+      "id": "a-h14",
+      "chairId": "ch4",
+      "typeId": "filling",
+      "source": "chairfill",
+      "fillId": "h14",
+      "patient": {
+        "id": "p-vamaya",
+        "name": "Victor Amaya",
+        "phone": "(805) 555-0111"
+      },
+      "providerId": "okafor",
+      "start": "2026-10-20T08:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a077",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-20T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p077",
+        "name": "Paula Gallegos"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a054",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-20T08:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p054",
+        "name": "Pam Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a044",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-20T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p044",
+        "name": "Martha Sorensen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a055",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-20T09:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p055",
+        "name": "Vern Magana"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a062",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-20T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p062",
+        "name": "Rick Schaefer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a070",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-20T09:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p070",
+        "name": "Bonnie Estrada"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a078",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-20T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p078",
+        "name": "Andre Holt"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a045",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-20T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p045",
+        "name": "Vanessa Mercado"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a063",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-20T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p063",
+        "name": "Gary Stokes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a079",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-20T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p079",
+        "name": "Beatriz Zimmerman"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a056",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-20T10:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p056",
+        "name": "Nate Schaefer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a071",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-20T10:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p071",
+        "name": "Wes Abernathy"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a046",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-20T11:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p046",
+        "name": "Yolanda Contreras"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a064",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-20T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p064",
+        "name": "Bonnie Crane"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a072",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-20T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p072",
+        "name": "Rick Carver"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a080",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-20T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p080",
+        "name": "Celeste Estrada"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a047",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-20T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p047",
+        "name": "Sandra Shaw"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a048",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-20T13:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p048",
+        "name": "Raul Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a057",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-20T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p057",
+        "name": "Isaac Stokes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a065",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-20T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p065",
+        "name": "Trevor Acosta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a073",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-20T13:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p073",
+        "name": "Celeste Alvarado"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a081",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-20T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "perio",
+      "patient": {
+        "id": "p081",
+        "name": "Phil Tafoya"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a049",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-20T13:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p049",
+        "name": "Russ Palmer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a058",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-20T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p058",
+        "name": "Beatriz Yates"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a066",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-20T14:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p066",
+        "name": "Cindy Fischer"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "cancelled",
+      "id": "a-c1",
+      "chairId": "ch5",
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p-hruiz",
+        "name": "Hannah Ruiz"
+      },
+      "cancel": {
+        "at": "2026-10-20T07:52:00-07:00",
+        "via": "Text",
+        "reason": "Kiddo woke up with a fever, so sorry!"
+      },
+      "providerId": "vega",
+      "start": "2026-10-20T14:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a050",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-20T14:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p050",
+        "name": "Olivia Barrios"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a067",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-20T14:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p067",
+        "name": "Cindy Tafoya"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a074",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-20T14:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p074",
+        "name": "Dale Abernathy"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a051",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-20T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p051",
+        "name": "Sandra Jansen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a059",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-20T15:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p059",
+        "name": "Phil Navarro"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a082",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-20T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p082",
+        "name": "Gwen Crane"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a060",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-20T15:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p060",
+        "name": "Janet Acosta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a052",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-20T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p052",
+        "name": "Jill Klein"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a068",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-20T16:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p068",
+        "name": "Doug Hanley"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a075",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-20T16:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p075",
+        "name": "Camila Hanley"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a083",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-20T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p083",
+        "name": "Rocio Ellison"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a069",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-20T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p069",
+        "name": "Dave Walsh"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a076",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-20T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p076",
+        "name": "Bonnie Moss"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a084",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-21T08:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p084",
+        "name": "Martha Velasquez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a091",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-21T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p091",
+        "name": "Eduardo Bishop"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a100",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-21T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p100",
+        "name": "Bradley Estrada"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a108",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-21T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p108",
+        "name": "Linda Mendez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a116",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-21T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p116",
+        "name": "Gary Flores"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a092",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-21T08:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p092",
+        "name": "Jill Barrios"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a101",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-21T08:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p101",
+        "name": "Vern Salas"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a093",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-21T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p093",
+        "name": "Javier Hayes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a102",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-21T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p102",
+        "name": "Nate Huerta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a109",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-21T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p109",
+        "name": "Nicole Hayes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a117",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-21T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p117",
+        "name": "Gina Dorsey"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a085",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-21T09:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p085",
+        "name": "Eduardo Holt"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a094",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-21T10:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p094",
+        "name": "Javier Espinoza"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "cancelled",
+      "id": "a-c2",
+      "chairId": "ch3",
+      "typeId": "crown",
+      "patient": {
+        "id": "p-gpike",
+        "name": "Gordon Pike"
+      },
+      "cancel": {
+        "at": "2026-10-19T16:15:00-07:00",
+        "via": "Phone",
+        "reason": "Work trip to Fresno got moved up."
+      },
+      "providerId": "okafor",
+      "start": "2026-10-21T10:00:00-07:00",
+      "durationMin": 90
+    },
+    {
+      "id": "a110",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-21T10:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p110",
+        "name": "Renee Wagner"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a118",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-21T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p118",
+        "name": "Rocio Walsh"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a119",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-21T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p119",
+        "name": "Wes Ellison"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a086",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-21T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p086",
+        "name": "Miguel Hayes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a095",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-21T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p095",
+        "name": "Teresa Rocha"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a103",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-21T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p103",
+        "name": "Gwen Harper"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a111",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-21T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p111",
+        "name": "Jill Stokes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a096",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-21T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p096",
+        "name": "Brenda Dorsey"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a104",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-21T13:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p104",
+        "name": "Elena Palmer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a112",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-21T13:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p112",
+        "name": "Vanessa Bishop"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a120",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-21T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p120",
+        "name": "Bryce Sorensen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a087",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-21T13:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p087",
+        "name": "Rocio Larsen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a105",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-21T13:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p105",
+        "name": "Julie Contreras"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a097",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-21T14:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p097",
+        "name": "Lucas Tanaka"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a113",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-21T14:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p113",
+        "name": "Chris Contreras"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a121",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-21T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p121",
+        "name": "Darlene Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a114",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-21T14:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p114",
+        "name": "Dale Perkins"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a088",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-21T15:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p088",
+        "name": "Sharon Navarro"
+      },
+      "status": "booked",
+      "note": "Balance due $64 from 8/12 visit"
+    },
+    {
+      "id": "a106",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-21T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p106",
+        "name": "Clint Dawson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a122",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-21T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p122",
+        "name": "Beatriz Campos"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a089",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-21T15:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p089",
+        "name": "Steve Stokes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a098",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-21T15:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p098",
+        "name": "Steve Jansen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a099",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-21T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p099",
+        "name": "Sharon Klein"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a115",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-21T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p115",
+        "name": "Clint Baird"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a123",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-21T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p123",
+        "name": "Alma Vance"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a090",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-21T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p090",
+        "name": "Vanessa Magana"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a107",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-21T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p107",
+        "name": "Josefina Wagner"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a124",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-22T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p124",
+        "name": "Rita Dawson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a131",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-22T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p131",
+        "name": "Heidi Cobb"
+      },
+      "status": "booked",
+      "note": "Prefers Spanish — Tasha can help"
+    },
+    {
+      "id": "a139",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-22T08:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p139",
+        "name": "Yolanda Pacheco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a146",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-22T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p146",
+        "name": "Julie Huerta"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "cancelled",
+      "id": "a-c3",
+      "chairId": "ch5",
+      "typeId": "perio",
+      "patient": {
+        "id": "p-emarsh",
+        "name": "Elaine Marsh"
+      },
+      "cancel": {
+        "at": "2026-10-20T08:31:00-07:00",
+        "via": "Voicemail",
+        "reason": "Car's in the shop until Friday."
+      },
+      "providerId": "vega",
+      "start": "2026-10-22T08:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a125",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-22T08:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p125",
+        "name": "Jill Fischer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a132",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-22T08:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p132",
+        "name": "Quinn Crane"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a147",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-22T09:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p147",
+        "name": "Gabe Carver"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a153",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-22T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p153",
+        "name": "Doug Quintero"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a140",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-22T09:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p140",
+        "name": "Andre Larsen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a126",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-22T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p126",
+        "name": "Joel Stokes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a133",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-22T10:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p133",
+        "name": "Lance Godfrey"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a141",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-22T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p141",
+        "name": "Ruby Palmer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a154",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-22T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "perio",
+      "patient": {
+        "id": "p154",
+        "name": "Elena Rowe"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a134",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-22T10:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p134",
+        "name": "Bryce Flores"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a148",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-22T10:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p148",
+        "name": "Phil Becker"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a127",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-22T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p127",
+        "name": "Rick Huerta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a142",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-22T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p142",
+        "name": "Maddie Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a155",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-22T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p155",
+        "name": "Rocio Flores"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a135",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-22T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p135",
+        "name": "Vern Underwood"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a149",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-22T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p149",
+        "name": "Ted Orozco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a128",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-22T13:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p128",
+        "name": "Matt Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a143",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-22T13:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p143",
+        "name": "Logan Serrano"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a150",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-22T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p150",
+        "name": "Brenda Perkins"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a156",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-22T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p156",
+        "name": "Wes Wagner"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a136",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-22T13:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p136",
+        "name": "Julie Mathis"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a151",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-22T14:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p151",
+        "name": "Wes Lozano"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a157",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-22T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p157",
+        "name": "Rocio Jimenez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a129",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-22T14:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p129",
+        "name": "Chris McBride"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a144",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-22T14:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p144",
+        "name": "Renee Crane"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a137",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-22T15:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p137",
+        "name": "Esther Magana"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "booked",
+      "id": "a-mu-gail",
+      "chairId": "ch5",
+      "typeId": "cleaning",
+      "earlierOk": true,
+      "patient": {
+        "id": "p-ghendricks",
+        "name": "Gail Hendricks",
+        "phone": "(805) 555-0142"
+      },
+      "providerId": "vega",
+      "start": "2026-10-22T15:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a130",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-22T15:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p130",
+        "name": "Gabe Novak"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a152",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-22T15:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p152",
+        "name": "Jaime Hale"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a145",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-22T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p145",
+        "name": "Gwen Whitley"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a158",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-22T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "newpt",
+      "patient": {
+        "id": "p158",
+        "name": "Chris Hayes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a138",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-22T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p138",
+        "name": "Keith Lam"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a159",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-23T08:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p159",
+        "name": "Phil Mathis"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a163",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-23T08:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p163",
+        "name": "Scott Salas"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a170",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-23T08:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p170",
+        "name": "Phil Espinoza"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a175",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-23T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p175",
+        "name": "Pam Benson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a181",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-23T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p181",
+        "name": "Tracy Cabrera"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a176",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-23T08:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p176",
+        "name": "Josefina Shaw"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a182",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-23T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p182",
+        "name": "Beatriz Bishop"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a160",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-23T09:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p160",
+        "name": "Teresa Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a164",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-23T09:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p164",
+        "name": "Bonnie Fischer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a171",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-23T09:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p171",
+        "name": "Isaac Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a177",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-23T09:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p177",
+        "name": "Martha Shaw"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a165",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-23T10:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p165",
+        "name": "Angela Pena"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a172",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-23T10:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p172",
+        "name": "Donna Cobb"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a183",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-23T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p183",
+        "name": "Armando Godfrey"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a166",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-23T10:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p166",
+        "name": "Felipe Ellison"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a178",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-23T10:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p178",
+        "name": "Pam Lozano"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "cancelled",
+      "id": "a-c4",
+      "chairId": "ch1",
+      "typeId": "filling",
+      "patient": {
+        "id": "p-jtran",
+        "name": "Jasmine Tran"
+      },
+      "cancel": {
+        "at": "2026-10-20T09:05:00-07:00",
+        "via": "Online",
+        "reason": "Schedule conflict."
+      },
+      "providerId": "calloway",
+      "start": "2026-10-23T11:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a179",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-23T11:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p179",
+        "name": "Clint Acosta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a184",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-23T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p184",
+        "name": "Nicole McBride"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a167",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-23T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p167",
+        "name": "Sara Hayes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a173",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-23T11:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p173",
+        "name": "Camila Tanaka"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a161",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-23T12:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p161",
+        "name": "Chris Maddox"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a168",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-23T12:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p168",
+        "name": "Karen Novak"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a185",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-23T12:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p185",
+        "name": "Doug Velasquez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a162",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-23T12:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p162",
+        "name": "Joel Abernathy"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a169",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-23T12:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p169",
+        "name": "Fiona Solis"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a174",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-23T12:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p174",
+        "name": "Isaac Contreras"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a180",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-23T12:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p180",
+        "name": "Cristina Rasmussen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a186",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-26T08:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p186",
+        "name": "Martha Godfrey"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a193",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-26T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p193",
+        "name": "Martha McBride"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a203",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-26T08:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p203",
+        "name": "Ron Perkins"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a211",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-26T08:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p211",
+        "name": "Ted Dawson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a219",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-26T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "perio",
+      "patient": {
+        "id": "p219",
+        "name": "Shannon Lozano"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a194",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-26T09:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p194",
+        "name": "Olivia Rowe"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a187",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-26T09:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p187",
+        "name": "Vern Medina"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a195",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-26T09:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p195",
+        "name": "Leo Zimmerman"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a204",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-26T09:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p204",
+        "name": "Dave Rocha"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a212",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-26T09:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p212",
+        "name": "Celeste Barrios"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a220",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-26T09:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p220",
+        "name": "Irene Rios"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a196",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-26T10:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p196",
+        "name": "Rachel Kerr"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a188",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-26T10:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p188",
+        "name": "Vicky Contreras"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a221",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-26T10:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p221",
+        "name": "Martha Medina"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a205",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-26T11:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p205",
+        "name": "Ian Pena"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a213",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-26T11:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p213",
+        "name": "Vern Perkins"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a197",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-26T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p197",
+        "name": "Donna Dawson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a206",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-26T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p206",
+        "name": "Lorena Yates"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a214",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-26T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p214",
+        "name": "Eduardo Pacheco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a189",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-26T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p189",
+        "name": "Paula Palmer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a198",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-26T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p198",
+        "name": "Silvia Velasquez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a207",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-26T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p207",
+        "name": "Teresa Alvarado"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a215",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-26T13:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p215",
+        "name": "Wade Magana"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a222",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-26T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p222",
+        "name": "Sandra Novak"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a190",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-26T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p190",
+        "name": "Lorena Salas"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a199",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-26T14:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p199",
+        "name": "Vicky Barrios"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a208",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-26T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p208",
+        "name": "Eric Acosta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a223",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-26T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p223",
+        "name": "Bryce Moss"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a200",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-26T14:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p200",
+        "name": "Craig Salas"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a216",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-26T14:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p216",
+        "name": "Jeff Ingram"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a191",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-26T15:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p191",
+        "name": "Lorena Campos"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a217",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-26T15:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p217",
+        "name": "Shawn Ellison"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a224",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-26T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p224",
+        "name": "Ted Acosta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a209",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-26T15:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p209",
+        "name": "Pam Orozco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a218",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-26T15:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p218",
+        "name": "Dale Rowe"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a201",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-26T16:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p201",
+        "name": "Dave Godfrey"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a225",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-26T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p225",
+        "name": "Bonnie Foley"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a192",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-26T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p192",
+        "name": "Josefina Salas"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a202",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-26T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p202",
+        "name": "Noah Gibbs"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a210",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-26T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p210",
+        "name": "Darlene Yates"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a226",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-27T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p226",
+        "name": "Vicky Velasquez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a236",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-27T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p236",
+        "name": "Phil Shaw"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a243",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-27T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p243",
+        "name": "Lance Zamora"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a252",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-27T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p252",
+        "name": "Audrey Barrios"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a260",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-27T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p260",
+        "name": "Trevor Magana"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a227",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-27T08:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p227",
+        "name": "Omar Velasquez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a244",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-27T08:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p244",
+        "name": "Angela Salas"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a228",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-27T09:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p228",
+        "name": "Shannon Huerta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a237",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-27T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p237",
+        "name": "Darlene Cabrera"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a245",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-27T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p245",
+        "name": "Zach Baird"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a253",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-27T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p253",
+        "name": "Bonnie Hayes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a261",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-27T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "newpt",
+      "patient": {
+        "id": "p261",
+        "name": "Nate Larsen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a229",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-27T09:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p229",
+        "name": "Vicky Ingram"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "cancelled",
+      "id": "a-c5",
+      "chairId": "ch2",
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p-sbell",
+        "name": "Stuart Bell"
+      },
+      "cancel": {
+        "at": "2026-10-19T11:20:00-07:00",
+        "via": "Phone",
+        "reason": "Got in with the endodontist in SLO sooner."
+      },
+      "providerId": "calloway",
+      "start": "2026-10-27T10:00:00-07:00",
+      "durationMin": 90
+    },
+    {
+      "id": "a246",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-27T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p246",
+        "name": "Shannon Bowen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a254",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-27T10:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p254",
+        "name": "Clint Abernathy"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a262",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-27T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p262",
+        "name": "Trevor Klein"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a255",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-27T10:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p255",
+        "name": "Cindy Pena"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a230",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-27T11:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p230",
+        "name": "Sara Medina"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a247",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-27T11:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p247",
+        "name": "Silvia Hayes"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a263",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-27T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p263",
+        "name": "Vicky Lam"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a231",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-27T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p231",
+        "name": "Elena Barrios"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a238",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-27T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p238",
+        "name": "Janet Navarro"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a248",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-27T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p248",
+        "name": "Nicole Orozco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a232",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-27T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p232",
+        "name": "Kristin Pacheco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a239",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-27T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p239",
+        "name": "Mario Tanaka"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a256",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-27T13:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p256",
+        "name": "Nicole Rowe"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a264",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-27T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p264",
+        "name": "Martha Rowe"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a249",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-27T13:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p249",
+        "name": "Gary Rasmussen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a233",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-27T14:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p233",
+        "name": "Angela Ahn"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a240",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-27T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p240",
+        "name": "Lance Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a265",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-27T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p265",
+        "name": "Brenda Foley"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a257",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-27T14:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p257",
+        "name": "Laura Rowe"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a241",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-27T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p241",
+        "name": "Camila Pacheco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a250",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-27T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p250",
+        "name": "Molly Whitley"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a266",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-27T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "perio",
+      "patient": {
+        "id": "p266",
+        "name": "Sharon Orozco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a234",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-27T15:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p234",
+        "name": "Vanessa Huerta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a258",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-27T15:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p258",
+        "name": "Teresa Whitley"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a242",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-27T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p242",
+        "name": "Tina Contreras"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a251",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-27T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p251",
+        "name": "Phil Acosta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a267",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-27T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p267",
+        "name": "Diego Hanley"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a235",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-27T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p235",
+        "name": "Martha Maddox"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a259",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-27T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p259",
+        "name": "Bryce Rios"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a268",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-28T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p268",
+        "name": "Donna Garza"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a277",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-28T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p277",
+        "name": "Greg Harper"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "booked",
+      "id": "a-mu-luis",
+      "chairId": "ch4",
+      "typeId": "crown",
+      "earlierOk": true,
+      "patient": {
+        "id": "p-lparedes",
+        "name": "Luis Paredes",
+        "phone": "(805) 555-0108"
+      },
+      "providerId": "okafor",
+      "start": "2026-10-28T08:00:00-07:00",
+      "durationMin": 90
+    },
+    {
+      "id": "a300",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-28T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p300",
+        "name": "Diego Gallegos"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a269",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-28T08:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p269",
+        "name": "Trevor Salas"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a285",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-28T08:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p285",
+        "name": "Kristin Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a270",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-28T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p270",
+        "name": "Rocio Lozano"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a278",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-28T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p278",
+        "name": "Rocio Espinoza"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a286",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-28T09:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p286",
+        "name": "Matt Perkins"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "booked",
+      "id": "a-mu-deb",
+      "chairId": "ch5",
+      "typeId": "perio",
+      "earlierOk": true,
+      "patient": {
+        "id": "p-dkowalski",
+        "name": "Deb Kowalski",
+        "phone": "(805) 555-0153"
+      },
+      "providerId": "vega",
+      "start": "2026-10-28T09:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a293",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-28T09:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p293",
+        "name": "Trevor Perkins"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a271",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-28T10:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p271",
+        "name": "Ian Foley"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a279",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-28T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p279",
+        "name": "Bonnie Yates"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a301",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-28T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p301",
+        "name": "Eduardo Whitley"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a272",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-28T10:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p272",
+        "name": "Sara Sorensen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a287",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-28T10:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p287",
+        "name": "Russ Crane"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a294",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-28T10:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p294",
+        "name": "Zach Espinoza"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a280",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-28T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p280",
+        "name": "Connie Ellison"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a302",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-28T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "newpt",
+      "patient": {
+        "id": "p302",
+        "name": "Mario Torres"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a288",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-28T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p288",
+        "name": "Fiona Pacheco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a295",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-28T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p295",
+        "name": "Vicky Jimenez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a273",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-28T13:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p273",
+        "name": "Dave Chavez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a281",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-28T13:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p281",
+        "name": "Ian Salas"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a289",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-28T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p289",
+        "name": "Shannon Zamora"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a303",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-28T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p303",
+        "name": "Maddie Kerr"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a274",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-28T13:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p274",
+        "name": "Vicky Moss"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a282",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-28T13:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p282",
+        "name": "Scott Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a296",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-28T13:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p296",
+        "name": "Jaime Diaz"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a290",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-28T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p290",
+        "name": "Ivy Godfrey"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a297",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-28T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p297",
+        "name": "Irene Fischer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a304",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-28T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p304",
+        "name": "Teresa Chavez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a275",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-28T14:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p275",
+        "name": "Tina Dawson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a283",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-28T15:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p283",
+        "name": "Miguel Quintero"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a291",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-28T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p291",
+        "name": "Paula Alvarado"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a298",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-28T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p298",
+        "name": "Leo Padilla"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a305",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-28T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "perio",
+      "patient": {
+        "id": "p305",
+        "name": "Camila Nguyen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a276",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-28T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p276",
+        "name": "Fiona Harper"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a292",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-28T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p292",
+        "name": "Silvia Alvarado"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a299",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-28T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p299",
+        "name": "Maddie Estrada"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a306",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-28T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p306",
+        "name": "Dave Medina"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a284",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-28T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p284",
+        "name": "Jackie Godfrey"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a307",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-29T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p307",
+        "name": "Bryce Contreras"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a316",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-29T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p316",
+        "name": "Kristin Kerr"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a325",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-29T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p325",
+        "name": "Chris Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a334",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-29T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p334",
+        "name": "Noah Flores"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a344",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-29T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p344",
+        "name": "Eric Fischer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a308",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-29T08:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p308",
+        "name": "Tina Ellison"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a317",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-29T08:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p317",
+        "name": "Sandra Moss"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a335",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-29T08:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p335",
+        "name": "Rita Medina"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "booked",
+      "id": "a-mu-walt",
+      "chairId": "ch1",
+      "typeId": "filling",
+      "earlierOk": true,
+      "patient": {
+        "id": "p-wsimmons",
+        "name": "Walt Simmons",
+        "phone": "(805) 555-0176"
+      },
+      "providerId": "calloway",
+      "start": "2026-10-29T09:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a318",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-29T09:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p318",
+        "name": "Ron Becker"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a326",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-29T09:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p326",
+        "name": "Leo Schaefer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a345",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-29T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p345",
+        "name": "Gwen Tafoya"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a327",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-29T09:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p327",
+        "name": "Noah Nguyen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a309",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-29T10:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p309",
+        "name": "Alma Rowe"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a336",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-29T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p336",
+        "name": "Armando Schaefer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a346",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-29T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "perio",
+      "patient": {
+        "id": "p346",
+        "name": "Martha Rios"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a310",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-29T10:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p310",
+        "name": "Alma Espinoza"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a319",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-29T10:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p319",
+        "name": "Rachel Gibbs"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a328",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-29T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p328",
+        "name": "Nate Perkins"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a337",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-29T11:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p337",
+        "name": "Rachel Sandoval"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a347",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-29T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p347",
+        "name": "Cindy Salas"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a338",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-29T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p338",
+        "name": "Laura Medina"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a311",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-29T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p311",
+        "name": "Lance Hale"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a320",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-29T13:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p320",
+        "name": "Miguel Godfrey"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a329",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-29T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p329",
+        "name": "Josefina Torres"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a339",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-29T13:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p339",
+        "name": "Raul Vance"
+      },
+      "status": "booked"
+    },
+    {
+      "status": "cancelled",
+      "id": "a-c6",
+      "chairId": "ch5",
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p-nquill",
+        "name": "Nora Quill"
+      },
+      "cancel": {
+        "at": "2026-10-20T08:47:00-07:00",
+        "via": "Text",
+        "reason": "We're moving to Fresno at the end of the month."
+      },
+      "providerId": "vega",
+      "start": "2026-10-29T13:00:00-07:00",
+      "durationMin": 60
+    },
+    {
+      "id": "a312",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-29T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p312",
+        "name": "Noah Ingram"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a330",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-29T14:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p330",
+        "name": "Jeff Nguyen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a340",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-29T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p340",
+        "name": "Sue Fischer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a348",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-29T14:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p348",
+        "name": "Bradley Lam"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a321",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-29T14:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p321",
+        "name": "Beatriz Sorensen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a331",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-29T14:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p331",
+        "name": "Connie Gomez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a313",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-29T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p313",
+        "name": "Valerie Tafoya"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a322",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-29T15:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p322",
+        "name": "Shawn Dorsey"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a341",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-29T15:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "consult",
+      "patient": {
+        "id": "p341",
+        "name": "Quinn Rasmussen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a349",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-29T15:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "perio",
+      "patient": {
+        "id": "p349",
+        "name": "Russ Solis"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a323",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-29T15:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p323",
+        "name": "Steve Duarte"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a332",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-29T15:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p332",
+        "name": "Irene Hale"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a342",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-29T15:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p342",
+        "name": "Nate Navarro"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a314",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-29T16:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p314",
+        "name": "Jeff Mendez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a343",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-29T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p343",
+        "name": "Brenda Gomez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a350",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-29T16:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p350",
+        "name": "Teresa Dawson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a315",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-29T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p315",
+        "name": "Matt Crane"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a324",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-29T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p324",
+        "name": "Rita Estrada"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a333",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-29T16:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p333",
+        "name": "Heidi Huerta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a351",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-30T08:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p351",
+        "name": "Armando Sorensen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a357",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-30T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p357",
+        "name": "Connie Benson"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a362",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-30T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p362",
+        "name": "Ivy Baird"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a368",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-30T08:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p368",
+        "name": "Ted Wagner"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a373",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-30T08:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "newpt",
+      "patient": {
+        "id": "p373",
+        "name": "Trevor Duarte"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a352",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-30T08:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p352",
+        "name": "Celeste Wagner"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a363",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-30T09:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p363",
+        "name": "Rocio Maddox"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a374",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-30T09:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p374",
+        "name": "Shawn Baird"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a353",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-30T09:30:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p353",
+        "name": "Tracy Perkins"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a358",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-30T09:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p358",
+        "name": "Leo Huerta"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a364",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-30T09:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p364",
+        "name": "Mario Maddox"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a369",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-30T09:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p369",
+        "name": "Diego Jansen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a359",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-30T10:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "crown",
+      "patient": {
+        "id": "p359",
+        "name": "Megan Diaz"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a375",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-30T10:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p375",
+        "name": "Bonnie Mercado"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a365",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-30T10:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p365",
+        "name": "Julie Klein"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a370",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-30T10:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p370",
+        "name": "Audrey Contreras"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a354",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-30T11:00:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p354",
+        "name": "Cristina Pacheco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a366",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-30T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p366",
+        "name": "Leo Rasmussen"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a371",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-30T11:00:00-07:00",
+      "durationMin": 90,
+      "typeId": "rootcanal",
+      "patient": {
+        "id": "p371",
+        "name": "Ron Espinoza"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a376",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-30T11:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p376",
+        "name": "Ron Shaw"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a355",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-30T11:30:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p355",
+        "name": "Tracy Gomez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a360",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-30T11:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p360",
+        "name": "Rocio Palmer"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a361",
+      "chairId": "ch2",
+      "providerId": "calloway",
+      "start": "2026-10-30T12:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p361",
+        "name": "Beatriz Valdez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a367",
+      "chairId": "ch3",
+      "providerId": "okafor",
+      "start": "2026-10-30T12:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "filling",
+      "patient": {
+        "id": "p367",
+        "name": "Javier Mendez"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a377",
+      "chairId": "ch5",
+      "providerId": "vega",
+      "start": "2026-10-30T12:00:00-07:00",
+      "durationMin": 60,
+      "typeId": "cleaning",
+      "patient": {
+        "id": "p377",
+        "name": "Alma Pacheco"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a356",
+      "chairId": "ch1",
+      "providerId": "calloway",
+      "start": "2026-10-30T12:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "seat",
+      "patient": {
+        "id": "p356",
+        "name": "Audrey Pena"
+      },
+      "status": "booked"
+    },
+    {
+      "id": "a372",
+      "chairId": "ch4",
+      "providerId": "okafor",
+      "start": "2026-10-30T12:30:00-07:00",
+      "durationMin": 30,
+      "typeId": "exam",
+      "patient": {
+        "id": "p372",
+        "name": "Ivy Chavez"
+      },
+      "status": "booked"
+    }
+  ]
+}

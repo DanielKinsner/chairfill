@@ -1,0 +1,915 @@
+[
+  {
+    "id": "w01",
+    "firstName": "Rosa",
+    "lastName": "Delgado",
+    "phone": "(805) 555-0117",
+    "procedureId": "cleaning",
+    "urgency": "soon",
+    "preferredDays": [
+      "tue",
+      "thu"
+    ],
+    "windows": [
+      "afternoon"
+    ],
+    "addedOn": "2026-09-09",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true,
+    "notes": "Teaches at Georgia Brown Elementary. Free after 1:30 most days.",
+    "lastOffer": {
+      "at": "2026-10-13T10:05:00-07:00",
+      "outcome": "taken"
+    }
+  },
+  {
+    "id": "w02",
+    "firstName": "Kevin",
+    "lastName": "Nakamura",
+    "phone": "(805) 555-0163",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "afternoon"
+    ],
+    "addedOn": "2026-08-23",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Cigna Dental"
+    },
+    "smsOk": true,
+    "lastOffer": {
+      "at": "2026-10-06T08:12:00-07:00",
+      "outcome": "no-reply"
+    }
+  },
+  {
+    "id": "w03",
+    "firstName": "Tom",
+    "lastName": "Brandt",
+    "phone": "(805) 555-0128",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "wed",
+      "fri"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-08-02",
+    "insurance": {
+      "status": "verified",
+      "carrier": "MetLife"
+    },
+    "smsOk": true,
+    "notes": "Possible duplicate of Thomas Brandt (same mobile)."
+  },
+  {
+    "id": "w04",
+    "firstName": "Thomas",
+    "lastName": "Brandt",
+    "phone": "(805) 555-0128",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "wed"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-10-02",
+    "insurance": {
+      "status": "verified",
+      "carrier": "MetLife"
+    },
+    "smsOk": true,
+    "notes": "Added by phone. Possible duplicate of Tom Brandt."
+  },
+  {
+    "id": "w05",
+    "firstName": "Priya",
+    "lastName": "Natarajan",
+    "phone": "(805) 555-0134",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "mon",
+      "thu"
+    ],
+    "windows": [
+      "morning",
+      "midday"
+    ],
+    "addedOn": "2026-09-28",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w06",
+    "firstName": "Haley",
+    "lastName": "Brooks",
+    "phone": "(805) 555-0151",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "tue",
+      "thu"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-07-15",
+    "insurance": {
+      "status": "check",
+      "carrier": "Guardian",
+      "note": "Plan changed in September. Get the new card."
+    },
+    "smsOk": true,
+    "notes": "Recall overdue 7 months."
+  },
+  {
+    "id": "w07",
+    "firstName": "Marcus",
+    "lastName": "Webb",
+    "phone": "(805) 555-0144",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-10-12",
+    "insurance": {
+      "status": "self-pay"
+    },
+    "smsOk": true,
+    "notes": "Prefers Marisol.",
+    "providerPref": "vega"
+  },
+  {
+    "id": "w08",
+    "firstName": "Lupe",
+    "lastName": "Ramírez",
+    "phone": "(805) 555-0109",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "tue",
+      "wed",
+      "thu"
+    ],
+    "windows": [
+      "afternoon"
+    ],
+    "addedOn": "2026-09-30",
+    "insurance": {
+      "status": "check",
+      "carrier": "Denti-Cal",
+      "note": "Check frequency limit. Last cleaning 5/12."
+    },
+    "smsOk": true,
+    "notes": "Prefers Spanish. Tasha can help."
+  },
+  {
+    "id": "w09",
+    "firstName": "Ethan",
+    "lastName": "Cole",
+    "phone": "(805) 555-0172",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "fri"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-10-14",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w10",
+    "firstName": "June",
+    "lastName": "Whitaker",
+    "phone": "(805) 555-0186",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "mon",
+      "wed"
+    ],
+    "windows": [
+      "midday"
+    ],
+    "addedOn": "2026-08-30",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Humana Medicare Advantage"
+    },
+    "smsOk": true,
+    "notes": "Uses a walker. Give her the chair closest to the door."
+  },
+  {
+    "id": "w11",
+    "firstName": "Sam",
+    "lastName": "Whitfield",
+    "phone": "(805) 555-0139",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "thu"
+    ],
+    "windows": [
+      "afternoon"
+    ],
+    "addedOn": "2026-09-18",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Aetna DMO"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w12",
+    "firstName": "Carmen",
+    "lastName": "Ochoa",
+    "phone": "(805) 555-0122",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-10-05",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true,
+    "notes": "Would like her two kids seen the same morning if possible."
+  },
+  {
+    "id": "w13",
+    "firstName": "Derek",
+    "lastName": "Lindqvist",
+    "phone": "(805) 555-0157",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "tue"
+    ],
+    "windows": [
+      "midday",
+      "afternoon"
+    ],
+    "addedOn": "2026-10-16",
+    "insurance": {
+      "status": "verified",
+      "carrier": "United Concordia"
+    },
+    "smsOk": true,
+    "lastOffer": {
+      "at": "2026-10-19T15:05:00-07:00",
+      "outcome": "no-reply"
+    }
+  },
+  {
+    "id": "w14",
+    "firstName": "Alyssa",
+    "lastName": "Fenwick",
+    "phone": "(805) 555-0193",
+    "procedureId": "cleaning",
+    "urgency": "routine",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-09-02",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w15",
+    "firstName": "Arturo",
+    "lastName": "Salinas",
+    "phone": "(805) 555-0112",
+    "procedureId": "perio",
+    "urgency": "soon",
+    "preferredDays": [
+      "tue",
+      "thu"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-09-21",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w16",
+    "firstName": "Nancy",
+    "lastName": "Feldkamp",
+    "phone": "(805) 555-0147",
+    "procedureId": "perio",
+    "urgency": "routine",
+    "preferredDays": [
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-08-11",
+    "insurance": {
+      "status": "expired",
+      "carrier": "Blue Shield",
+      "note": "Coverage ended 9/30. Ask for her new card."
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w17",
+    "firstName": "Glen",
+    "lastName": "Ishikawa",
+    "phone": "(805) 555-0165",
+    "procedureId": "perio",
+    "urgency": "routine",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-09-07",
+    "insurance": {
+      "status": "self-pay"
+    },
+    "smsOk": true,
+    "notes": "Pays at time of service."
+  },
+  {
+    "id": "w18",
+    "firstName": "Bev",
+    "lastName": "Thornton",
+    "phone": "(805) 555-0178",
+    "procedureId": "perio",
+    "urgency": "soon",
+    "preferredDays": [
+      "thu"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-10-08",
+    "insurance": {
+      "status": "verified",
+      "carrier": "MetLife"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w19",
+    "firstName": "Ricardo",
+    "lastName": "Fuentes",
+    "phone": "(805) 555-0119",
+    "procedureId": "perio",
+    "urgency": "routine",
+    "preferredDays": [
+      "wed",
+      "thu"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-10-13",
+    "insurance": {
+      "status": "check",
+      "carrier": "Delta Dental PPO",
+      "note": "New employer plan. Verify before booking."
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w20",
+    "firstName": "Patricia",
+    "lastName": "Oyelaran",
+    "phone": "(805) 555-0141",
+    "procedureId": "crown",
+    "urgency": "urgent",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-10-06",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true,
+    "notes": "Cracked lower molar, temporary filling placed 10/6."
+  },
+  {
+    "id": "w21",
+    "firstName": "Dennis",
+    "lastName": "Hruby",
+    "phone": "(805) 555-0126",
+    "procedureId": "crown",
+    "urgency": "soon",
+    "preferredDays": [
+      "wed",
+      "fri"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-09-15",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Cigna Dental"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w22",
+    "firstName": "Kayla",
+    "lastName": "Montoya",
+    "phone": "(805) 555-0158",
+    "procedureId": "crown",
+    "urgency": "routine",
+    "preferredDays": [
+      "wed"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-08-28",
+    "insurance": {
+      "status": "check",
+      "carrier": "Guardian",
+      "note": "Annual max may already be met."
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w23",
+    "firstName": "Frank",
+    "lastName": "DeLuca",
+    "phone": "(805) 555-0183",
+    "procedureId": "crown",
+    "urgency": "routine",
+    "preferredDays": [
+      "tue",
+      "wed"
+    ],
+    "windows": [
+      "morning",
+      "midday"
+    ],
+    "addedOn": "2026-09-25",
+    "insurance": {
+      "status": "self-pay"
+    },
+    "smsOk": true,
+    "notes": "Wants a written estimate before booking."
+  },
+  {
+    "id": "w24",
+    "firstName": "Joanne",
+    "lastName": "Pak",
+    "phone": "(805) 555-0131",
+    "procedureId": "crown",
+    "urgency": "soon",
+    "preferredDays": [
+      "mon",
+      "wed"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-10-01",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true,
+    "providerPref": "okafor",
+    "notes": "Only wants Dr. Okafor."
+  },
+  {
+    "id": "w25",
+    "firstName": "Jonh",
+    "lastName": "Pruitt",
+    "phone": "(805) 555-0114",
+    "procedureId": "filling",
+    "urgency": "soon",
+    "preferredDays": [
+      "fri"
+    ],
+    "windows": [
+      "morning",
+      "midday"
+    ],
+    "addedOn": "2026-09-29",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Aetna DMO"
+    },
+    "smsOk": true,
+    "notes": "Name is misspelled in the PMS (John). Fix at next visit."
+  },
+  {
+    "id": "w26",
+    "firstName": "Mei-Ling",
+    "lastName": "Cho",
+    "phone": "(805) 555-0168",
+    "procedureId": "filling",
+    "urgency": "routine",
+    "preferredDays": [
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "midday"
+    ],
+    "addedOn": "2026-09-10",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true,
+    "lastOffer": {
+      "at": "2026-10-19T15:00:00-07:00",
+      "outcome": "taken"
+    }
+  },
+  {
+    "id": "w27",
+    "firstName": "Brandon",
+    "lastName": "Tull",
+    "phone": "(805) 555-0175",
+    "procedureId": "filling",
+    "urgency": "routine",
+    "preferredDays": [
+      "fri"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-10-09",
+    "insurance": {
+      "status": "self-pay"
+    },
+    "smsOk": true,
+    "lastOffer": {
+      "at": "2026-10-19T15:00:00-07:00",
+      "outcome": "declined"
+    }
+  },
+  {
+    "id": "w28",
+    "firstName": "MARGARET",
+    "lastName": "O'NEIL",
+    "phone": "(805) 555-0191",
+    "procedureId": "filling",
+    "urgency": "routine",
+    "preferredDays": [
+      "mon",
+      "fri"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-08-19",
+    "insurance": {
+      "status": "check",
+      "carrier": "Humana Medicare Advantage",
+      "note": "Confirm the dental rider is active."
+    },
+    "smsOk": true,
+    "notes": "Hard of hearing. Text, don't call."
+  },
+  {
+    "id": "w29",
+    "firstName": "Tyler",
+    "lastName": "Ambrose",
+    "phone": "(805) 555-0199",
+    "procedureId": "filling",
+    "urgency": "urgent",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-10-18",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": false,
+    "notes": "Lost a filling, sensitive to cold. Number on file is a landline; call him."
+  },
+  {
+    "id": "w30",
+    "firstName": "Sofia",
+    "lastName": "Herrera",
+    "phone": "(805) 555-0105",
+    "procedureId": "filling",
+    "urgency": "soon",
+    "preferredDays": [
+      "tue",
+      "wed",
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-10-03",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Denti-Cal"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w31",
+    "firstName": "Brianna",
+    "lastName": "Castillo",
+    "phone": "(805) 555-0137",
+    "procedureId": "rootcanal",
+    "urgency": "urgent",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-10-17",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Cigna Dental"
+    },
+    "smsOk": true,
+    "notes": "Throbbing, lower left. On ibuprofen."
+  },
+  {
+    "id": "w32",
+    "firstName": "Ray",
+    "lastName": "Gutierrez",
+    "phone": "(805) 555-0154",
+    "procedureId": "rootcanal",
+    "urgency": "urgent",
+    "preferredDays": [
+      "tue",
+      "wed"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-10-14",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w33",
+    "firstName": "Hollis",
+    "lastName": "Grant",
+    "phone": "(805) 555-0161",
+    "procedureId": "rootcanal",
+    "urgency": "soon",
+    "preferredDays": [
+      "mon",
+      "tue"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-10-02",
+    "insurance": {
+      "status": "self-pay"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w34",
+    "firstName": "Wendy",
+    "lastName": "Szabo",
+    "phone": "(805) 555-0188",
+    "procedureId": "rootcanal",
+    "urgency": "soon",
+    "preferredDays": [
+      "tue",
+      "thu"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-09-24",
+    "insurance": {
+      "status": "check",
+      "carrier": "Blue Shield",
+      "note": "Needs pre-authorization."
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w35",
+    "firstName": "Caleb",
+    "lastName": "Moreno",
+    "phone": "(805) 555-0124",
+    "procedureId": "newpt",
+    "urgency": "routine",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "afternoon"
+    ],
+    "addedOn": "2026-10-11",
+    "insurance": {
+      "status": "check",
+      "carrier": "Delta Dental PPO",
+      "note": "New patient. Verify eligibility."
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w36",
+    "firstName": "Anika",
+    "lastName": "Rao",
+    "phone": "(805) 555-0149",
+    "procedureId": "newpt",
+    "urgency": "routine",
+    "preferredDays": [
+      "tue",
+      "thu"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-10-15",
+    "insurance": {
+      "status": "check",
+      "carrier": "Aetna DMO",
+      "note": "New patient. Verify eligibility."
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w37",
+    "firstName": "Owen",
+    "lastName": "Pierce",
+    "phone": "(805) 555-0170",
+    "procedureId": "newpt",
+    "urgency": "soon",
+    "preferredDays": [
+      "mon",
+      "wed",
+      "fri"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-09-27",
+    "insurance": {
+      "status": "self-pay"
+    },
+    "smsOk": true,
+    "notes": "Moved from Bakersfield. Records request sent 9/28."
+  },
+  {
+    "id": "w38",
+    "firstName": "Grace",
+    "lastName": "Liu",
+    "phone": "(805) 555-0115",
+    "procedureId": "exam",
+    "urgency": "urgent",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "any"
+    ],
+    "addedOn": "2026-10-19",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Delta Dental PPO"
+    },
+    "smsOk": true,
+    "notes": "Chipped front tooth at soccer practice."
+  },
+  {
+    "id": "w39",
+    "firstName": "Hector",
+    "lastName": "Villanueva",
+    "phone": "(805) 555-0181",
+    "procedureId": "exam",
+    "urgency": "soon",
+    "preferredDays": [
+      "mon",
+      "tue",
+      "wed"
+    ],
+    "windows": [
+      "morning"
+    ],
+    "addedOn": "2026-10-10",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Denti-Cal"
+    },
+    "smsOk": true
+  },
+  {
+    "id": "w40",
+    "firstName": "Dana",
+    "lastName": "Kessler",
+    "phone": "(805) 555-0129",
+    "procedureId": "exam",
+    "urgency": "routine",
+    "preferredDays": [
+      "thu",
+      "fri"
+    ],
+    "windows": [
+      "afternoon"
+    ],
+    "addedOn": "2026-10-07",
+    "insurance": {
+      "status": "verified",
+      "carrier": "Cigna Dental"
+    },
+    "smsOk": true
+  }
+]

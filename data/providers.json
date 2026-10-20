@@ -1,0 +1,63 @@
+{
+  "providers": [
+    {
+      "id": "calloway",
+      "name": "Dr. Ruth Calloway",
+      "credentials": "DDS",
+      "smsName": "Dr. Calloway",
+      "role": "dentist",
+      "chairIds": [
+        "ch1",
+        "ch2"
+      ]
+    },
+    {
+      "id": "okafor",
+      "name": "Dr. Ben Okafor",
+      "credentials": "DMD",
+      "smsName": "Dr. Okafor",
+      "role": "dentist",
+      "chairIds": [
+        "ch3",
+        "ch4"
+      ]
+    },
+    {
+      "id": "vega",
+      "name": "Marisol Vega",
+      "credentials": "RDH",
+      "smsName": "Marisol",
+      "role": "hygienist",
+      "chairIds": [
+        "ch5"
+      ]
+    }
+  ],
+  "chairs": [
+    {
+      "id": "ch1",
+      "name": "Chair 1",
+      "providerId": "calloway"
+    },
+    {
+      "id": "ch2",
+      "name": "Chair 2",
+      "providerId": "calloway"
+    },
+    {
+      "id": "ch3",
+      "name": "Chair 3",
+      "providerId": "okafor"
+    },
+    {
+      "id": "ch4",
+      "name": "Chair 4",
+      "providerId": "okafor"
+    },
+    {
+      "id": "ch5",
+      "name": "Chair 5",
+      "providerId": "vega"
+    }
+  ]
+}

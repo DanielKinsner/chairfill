@@ -1,0 +1,24 @@
+{
+  "name": "chairfill-explainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "25-second Remotion explainer video for ChairFill",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render src/index.ts ChairFillExplainer ../public/explainer.mp4 --codec h264 --crf 20",
+    "poster": "remotion still src/index.ts ChairFillExplainer ../public/explainer-poster.jpg --frame 400",
+    "chime": "node scripts/make-chime.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.537",
+    "@remotion/google-fonts": "4.0.537",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.537"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "typescript": "^5"
+  }
+}
