@@ -127,3 +127,17 @@ The UI is there and the action is simulated, so the demo never dead-ends:
 
 - `npm test`: unit tests for ranking order on every seeded cancellation, cooldown, daily cap, duplicates, the SMS engine timing (batch, one-at-a-time, timeouts, live replies, late replies), quiet hours, SMS segment math, CSV import, report math and the calendar file.
 - `npm run test:e2e`: Playwright builds the app and runs the demo script end to end (schedule, fill, reports, explainer, patient YES at phone size, setup wizard), the move-up chain, the OG image and the 404. Set `E2E_BASE_URL=https://chairfill-app.vercel.app` to run it against the live site.
+
+## Restyle: the control room (Oct 20, 2026)
+
+The first build was "calm clinical" and read as a calendar app. This pass keeps every line of logic and changes the skin so the first five seconds sell the product:
+
+- **A dark stage with one signal color.** Design tokens keep their names (`white`, `ink`, `surface`, `line`, `teal`…) so every component kept working; their values now map onto a dark stage. Signal teal `#19D3C5` always means "ChairFill did this"; amber means offers in flight.
+- **A front door at `/`.** One serif sentence, the 25-second fill on a loop, one button. "Watch a chair fill" opens the first open chair straight into the fill screen (`/schedule?fill=first`).
+- **The fill is the show.** The winning phone lifts and glows, the others dim, the booked slot pulses, and a serif line lands under it: "Rosa Delgado, 2:00 PM. Nobody picked up a phone."
+- **Open chairs breathe.** Every dashed outline pulses signal teal on a three-second cycle (static under reduced motion).
+- **Reports open on the number.** Recovered-this-month at 88px, with the sentence it deserves.
+- **Phones open on the moment.** On narrow screens the day view starts with today's open chairs as thumb-sized cards, before the per-chair lists.
+- **Type.** Instrument Serif (italic) for the few human sentences; IBM Plex Sans and Mono for everything the desk reads. A 3.5% film grain sits over the stage as a CSS layer.
+
+Decisions made without asking: light mode was dropped rather than maintained as a second theme; the explainer loop on the landing page reuses the existing Remotion render; the patient page stays light on purpose (it is what the patient sees, not what the desk sees).

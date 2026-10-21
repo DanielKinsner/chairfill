@@ -471,7 +471,7 @@ function Stage({
           transition={{ duration: 0.3 }}
           className={`relative flex min-h-[72px] flex-1 items-center gap-4 rounded-card px-4 py-3 transition-colors duration-500 ${
             booked
-              ? "animate-fill-pulse border border-teal bg-teal text-white"
+              ? "animate-fill-pulse winner-glow border border-teal bg-teal text-white"
               : filled
                 ? "border border-teal bg-teal-soft text-teal-deep"
                 : run?.status === "running"
@@ -521,6 +521,14 @@ function Stage({
         ) : null}
       </div>
 
+      {booked && winner ? (
+        <p className="display mt-4 text-[24px] text-ink animate-rise md:text-[30px]" data-testid="stage-line">
+          {winner.name}, {fmtTime(slot.start)}. Nobody picked up a phone.
+        </p>
+      ) : run?.status === "running" ? (
+        <p className="display mt-4 text-[22px] text-ink-2 animate-rise md:text-[26px]">Three phones just lit up. The first yes wins.</p>
+      ) : null}
+
       {preStart ? (
         children
       ) : run ? (
@@ -534,6 +542,7 @@ function Stage({
                   windowSec={run.offerWindowSec}
                   showWindow={run.status === "running"}
                   isWinner={run.winner === o.key}
+                  dimmed={!!run.winner && run.winner !== o.key}
                   practiceName={practiceName}
                   flyFrom={-150 - i * 10}
                 />

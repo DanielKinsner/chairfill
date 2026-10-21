@@ -35,7 +35,14 @@ function ScheduleInner() {
   const practice = useDemo((s) => s.practice);
   const types = practice.appointmentTypes;
 
-  const fillSlot = fillId ? appointments.find((a) => a.id === fillId) : undefined;
+  // `?fill=first` (the landing page's button) opens the first fillable chair. Resolved once, so the dialog
+  // doesn't jump to the next open chair the moment this one fills.
+  const [firstOpenId] = useState(() =>
+    fillId === "first"
+      ? [...appointments].sort((a, b) => a.start.localeCompare(b.start)).find((a) => isFillable(slotState(a, runs, now)))?.id
+      : undefined,
+  );
+  const fillSlot = fillId ? appointments.find((a) => a.id === (fillId === "first" ? firstOpenId : fillId)) : undefined;
   const initialWeek = Math.max(0, WEEK_STARTS.findIndex((w) => weekDates(w).includes(fillSlot?.start.slice(0, 10) ?? today)));
   const [week, setWeek] = useState(initialWeek);
   const [view, setView] = useState<"week" | "day">("week");
@@ -70,11 +77,16 @@ function ScheduleInner() {
       {/* Left rail: what's open, then who's working */}
       <aside className="hidden w-[248px] shrink-0 flex-col border-r border-line bg-surface lg:flex" aria-label="Open chairs and providers">
         <div className="sticky top-[52px] flex max-h-[calc(100dvh-52px)] flex-col overflow-y-auto scroll-thin">
-          <section className="px-4 pb-4 pt-4">
+          <section className="stagelight px-4 pb-4 pt-4">
             <div className="flex items-baseline justify-between">
               <h2 className="text-[13px] font-semibold text-ink">Open chairs</h2>
               <span className="text-[12px] text-slate-ink">{week === 0 ? "This week" : "Next week"}</span>
             </div>
+            {openSlots.length > 0 ? (
+              <p className="display mt-1.5 text-[19px] leading-tight text-ink-2">
+                {openSlots.length === 1 ? "One chair is waiting for someone." : `${openSlots.length} chairs are waiting for someone.`}
+              </p>
+            ) : null}
             {openSlots.length === 0 ? (
               <div className="open-outline mt-3 rounded-card px-3 py-4 text-center text-[13px] text-slate-ink">
                 Every chair is spoken for {week === 0 ? "this week" : "next week"}.
@@ -355,6 +367,39 @@ function Agenda({
         })}
       </div>
       <div className="space-y-4 px-3 py-3">
+        {/* Phones open on the moment, not the list: every open chair today, as a card you can fill with a thumb. */}
+        {(() => {
+          const open = dayList.filter((a) => isFillable(slotState(a, runs, now))).sort((a, b) => a.start.localeCompare(b.start));
+          if (open.length === 0) return null;
+          return (
+            <section aria-label="Open chairs today" className="stagelight -mx-3 border-b border-line px-3 pb-4">
+              <p className="display text-[24px] leading-tight text-ink">
+                {open.length === 1 ? "One chair is waiting for someone." : `${open.length} chairs are waiting for someone.`}
+              </p>
+              <ul className="mt-3 space-y-2">
+                {open.map((a) => {
+                  const state = slotState(a, runs, now);
+                  const type = types.find((t) => t.id === a.typeId);
+                  const c = chairs.find((x) => x.id === a.chairId);
+                  return (
+                    <li key={a.id} className={`flex items-center gap-3 rounded-card px-3 py-3 ${state === "filling" ? "open-outline-amber" : "open-outline"}`}>
+                      <span className="min-w-0 flex-1">
+                        <span className="num block text-[18px] font-medium text-ink">{fmtTime(a.start)}</span>
+                        <span className="block truncate text-[12.5px] text-slate-ink">
+                          {type?.name}, {c?.name}
+                          {type ? `, $${type.value.toLocaleString()}` : ""}
+                        </span>
+                      </span>
+                      <Button size="lg" variant={state === "filling" ? "secondary" : "primary"} onClick={() => onFill(a.id)}>
+                        {state === "filling" ? "Watch" : "Fill this slot"}
+                      </Button>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          );
+        })()}
         {chairs.map((c) => {
           const list = dayList.filter((a) => a.chairId === c.id).sort((a, b) => a.start.localeCompare(b.start));
           if (list.length === 0) return null;

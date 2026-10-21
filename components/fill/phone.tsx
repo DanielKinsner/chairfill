@@ -53,6 +53,7 @@ export function PhoneThread({
   windowSec,
   showWindow,
   isWinner,
+  dimmed = false,
   practiceName,
   flyFrom = -140,
 }: {
@@ -61,6 +62,7 @@ export function PhoneThread({
   windowSec: number;
   showWindow: boolean;
   isWinner: boolean;
+  dimmed?: boolean;
   practiceName: string;
   flyFrom?: number;
 }) {
@@ -78,8 +80,8 @@ export function PhoneThread({
 
   return (
     <div
-      className={`flex h-full min-h-0 w-full flex-col overflow-hidden rounded-[18px] border bg-white transition-colors duration-300 ${
-        isWinner ? "border-teal shadow-[0_0_0_3px_var(--color-teal-soft)]" : "border-line-strong"
+      className={`flex h-full min-h-0 w-full flex-col overflow-hidden rounded-[18px] border bg-white transition-all duration-500 ${
+        isWinner ? "winner-glow -translate-y-1 border-teal" : dimmed ? "border-line opacity-55 saturate-50" : "border-line-strong"
       }`}
     >
       <div className="border-b border-line px-3 pb-2 pt-2.5">

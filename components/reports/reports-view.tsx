@@ -47,13 +47,16 @@ function ReportsInner() {
 
       {/* The ledger: one row, read left to right, the headline number first */}
       <section aria-label="This month" className="grid border-b border-line sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
-        <div className="border-b border-line px-4 py-5 sm:border-r lg:border-b-0 lg:px-6">
+        <div className="stagelight border-b border-line px-4 py-6 sm:border-r lg:border-b-0 lg:px-6">
           <p className="text-[13px] text-slate-ink">Recovered this month</p>
-          <p className="num mt-1 text-[40px] font-medium leading-none tracking-[-0.03em] text-teal-deep" data-testid="kpi-recovered">
+          <p className="num mt-1 text-[64px] font-medium leading-none tracking-[-0.04em] text-teal-deep md:text-[88px]" data-testid="kpi-recovered">
             ${r.recovered.toLocaleString()}
           </p>
+          <p className="display mt-3 text-[19px] leading-snug text-ink-2">
+            Money the practice already paid staff to be there for.
+          </p>
           <p className="mt-2 text-[12.5px] text-slate-ink">
-            On pace for <Money value={r.pace} className="text-ink" /> by Oct 31. Money the practice already paid staff to be there for.
+            On pace for <Money value={r.pace} className="text-ink" /> by Oct 31.
           </p>
         </div>
         <Kpi label="Chairs filled" value={String(r.filled.length)} note={`of ${r.filled.length + r.unfilled.length} cancellations (${Math.round(r.fillRate * 100)}%)`} testid="kpi-filled" />

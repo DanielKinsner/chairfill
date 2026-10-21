@@ -77,8 +77,8 @@ export function SlotBlock({
       <motion.div
         key={justFilled ? `flash-${flashAt}` : "still"}
         className={`group relative flex h-full w-full flex-col overflow-hidden rounded-[6px] text-left ${STATE_CLS[state]} ${justFilled ? "animate-fill-pulse" : ""}`}
-        initial={justFilled && !reduced ? { backgroundColor: "#0F8B8D", color: "#ffffff" } : false}
-        animate={justFilled && !reduced ? { backgroundColor: "#DFF3F3", color: "#0A6869" } : undefined}
+        initial={justFilled && !reduced ? { backgroundColor: "#19D3C5", color: "#0B0F14" } : false}
+        animate={justFilled && !reduced ? { backgroundColor: "#0F2A2C", color: "#5EE6DB" } : undefined}
         transition={{ duration: 1.1, delay: 0.9, ease: "easeOut" }}
       >
         <button
